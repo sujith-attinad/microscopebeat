@@ -1,0 +1,5 @@
+= Microscopebeat Docs
+
+Welcome to the Microscopebeat documentation.
+
+

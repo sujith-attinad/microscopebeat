@@ -1,0 +1,7 @@
+################### Microscopebeat Configuration Example #########################
+
+############################# Microscopebeat ######################################
+
+microscopebeat:
+  # Defines how often an event is sent to the output
+  period: 1s
