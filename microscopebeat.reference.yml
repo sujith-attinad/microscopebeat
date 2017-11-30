@@ -4,7 +4,12 @@
 
 microscopebeat:
   # Defines how often an event is sent to the output
-  period: 1s
+  period: 10s
+
+  # The table(s) for which to get statistics
+  table:
+      - "nucleus_microscope_stg.daily_report_test"
+
 
 #================================ General ======================================
 

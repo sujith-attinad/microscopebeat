@@ -280,3 +280,18 @@ required: True
 PLEASE UPDATE DOCUMENTATION
 
 
+[float]
+=== `table_name`
+
+type: string
+
+[float]
+=== `write_latency`
+
+type: float
+
+[float]
+=== `read_latency`
+
+type: float
+

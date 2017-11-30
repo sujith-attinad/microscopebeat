@@ -1,761 +1,1165 @@
-2017-11-27T20:52:14+05:30 INFO Home path: [/home/sujith/GoWorkUnx/src/github.com/sujith-attinad/microscopebeat] Config path: [/home/sujith/GoWorkUnx/src/github.com/sujith-attinad/microscopebeat] Data path: [/home/sujith/GoWorkUnx/src/github.com/sujith-attinad/microscopebeat/data] Logs path: [/home/sujith/GoWorkUnx/src/github.com/sujith-attinad/microscopebeat/logs]
-2017-11-27T20:52:14+05:30 INFO Metrics logging every 30s
-2017-11-27T20:52:14+05:30 INFO Beat UUID: d6d9fb1a-e01c-4ddd-8ec0-3c05b3af2203
-2017-11-27T20:52:14+05:30 INFO Setup Beat: microscopebeat; Version: 7.0.0-alpha1
-2017-11-27T20:52:14+05:30 INFO Elasticsearch url: http://localhost:9200
-2017-11-27T20:52:14+05:30 INFO Beat name: ATT-LP-32
-2017-11-27T20:52:14+05:30 INFO microscopebeat start running.
-2017-11-27T20:52:14+05:30 INFO microscopebeat is running! Hit CTRL-C to stop it.
-2017-11-27T20:52:15+05:30 INFO Event sent
-2017-11-27T20:52:16+05:30 INFO Event sent
-2017-11-27T20:52:17+05:30 INFO Event sent
-2017-11-27T20:52:17+05:30 ERR  Failed to connect: Get http://localhost:9200: dial tcp 127.0.0.1:9200: getsockopt: connection refused
-2017-11-27T20:52:18+05:30 INFO Event sent
-2017-11-27T20:52:19+05:30 INFO Event sent
-2017-11-27T20:52:19+05:30 ERR  Failed to connect: Get http://localhost:9200: dial tcp 127.0.0.1:9200: getsockopt: connection refused
-2017-11-27T20:52:20+05:30 INFO Event sent
-2017-11-27T20:52:21+05:30 INFO Event sent
-2017-11-27T20:52:22+05:30 INFO Event sent
-2017-11-27T20:52:23+05:30 INFO Event sent
-2017-11-27T20:52:23+05:30 ERR  Failed to connect: Get http://localhost:9200: dial tcp 127.0.0.1:9200: getsockopt: connection refused
-2017-11-27T20:52:24+05:30 INFO Event sent
-2017-11-27T20:52:25+05:30 INFO Event sent
-2017-11-27T20:52:26+05:30 INFO Event sent
-2017-11-27T20:52:27+05:30 INFO Event sent
-2017-11-27T20:52:28+05:30 INFO Event sent
-2017-11-27T20:52:29+05:30 INFO Event sent
-2017-11-27T20:52:30+05:30 INFO Event sent
-2017-11-27T20:52:31+05:30 INFO Event sent
-2017-11-27T20:52:31+05:30 ERR  Failed to connect: Get http://localhost:9200: dial tcp 127.0.0.1:9200: getsockopt: connection refused
-2017-11-27T20:52:32+05:30 INFO Event sent
-2017-11-27T20:52:33+05:30 INFO Event sent
-2017-11-27T20:52:34+05:30 INFO Event sent
-2017-11-27T20:52:35+05:30 INFO Event sent
-2017-11-27T20:52:36+05:30 INFO Event sent
-2017-11-27T20:52:37+05:30 INFO Event sent
-2017-11-27T20:52:38+05:30 INFO Event sent
-2017-11-27T20:52:39+05:30 INFO Event sent
-2017-11-27T20:52:40+05:30 INFO Event sent
-2017-11-27T20:52:41+05:30 INFO Event sent
-2017-11-27T20:52:42+05:30 INFO Event sent
-2017-11-27T20:52:43+05:30 INFO Event sent
-2017-11-27T20:52:44+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30004 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=1859416 beat.memstats.memory_total=3774232 libbeat.config.module.running=0 libbeat.output.type=elasticsearch libbeat.pipeline.clients=1 libbeat.pipeline.events.active=29 libbeat.pipeline.events.published=29 libbeat.pipeline.events.retry=6 libbeat.pipeline.events.total=29
-2017-11-27T20:52:44+05:30 INFO Event sent
-2017-11-27T20:52:45+05:30 INFO Event sent
-2017-11-27T20:52:46+05:30 INFO Event sent
-2017-11-27T20:52:47+05:30 INFO Event sent
-2017-11-27T20:52:47+05:30 ERR  Failed to connect: Get http://localhost:9200: dial tcp 127.0.0.1:9200: getsockopt: connection refused
-2017-11-27T20:52:47+05:30 INFO retryer: send wait signal to consumer
-2017-11-27T20:52:47+05:30 INFO   done
-2017-11-27T20:52:48+05:30 INFO Event sent
-2017-11-27T20:52:49+05:30 INFO Event sent
-2017-11-27T20:52:50+05:30 INFO Event sent
-2017-11-27T20:52:51+05:30 INFO Event sent
-2017-11-27T20:52:52+05:30 INFO Event sent
-2017-11-27T20:52:53+05:30 INFO Event sent
-2017-11-27T20:52:54+05:30 INFO Event sent
-2017-11-27T20:52:55+05:30 INFO Event sent
-2017-11-27T20:52:56+05:30 INFO Event sent
-2017-11-27T20:52:57+05:30 INFO Event sent
-2017-11-27T20:52:58+05:30 INFO Event sent
-2017-11-27T20:52:59+05:30 INFO Event sent
-2017-11-27T20:53:00+05:30 INFO Event sent
-2017-11-27T20:53:01+05:30 INFO Event sent
-2017-11-27T20:53:02+05:30 INFO Event sent
-2017-11-27T20:53:03+05:30 INFO Event sent
-2017-11-27T20:53:04+05:30 INFO Event sent
-2017-11-27T20:53:05+05:30 INFO Event sent
-2017-11-27T20:53:06+05:30 INFO Event sent
-2017-11-27T20:53:07+05:30 INFO Event sent
-2017-11-27T20:53:08+05:30 INFO Event sent
-2017-11-27T20:53:09+05:30 INFO Event sent
-2017-11-27T20:53:10+05:30 INFO Event sent
-2017-11-27T20:53:11+05:30 INFO Event sent
-2017-11-27T20:53:12+05:30 INFO Event sent
-2017-11-27T20:53:13+05:30 INFO Event sent
-2017-11-27T20:53:14+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=2074696 beat.memstats.memory_total=3989512 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=59 libbeat.pipeline.events.published=30 libbeat.pipeline.events.total=30
-2017-11-27T20:53:14+05:30 INFO Event sent
-2017-11-27T20:53:15+05:30 INFO Event sent
-2017-11-27T20:53:16+05:30 INFO Event sent
-2017-11-27T20:53:17+05:30 INFO Event sent
-2017-11-27T20:53:18+05:30 INFO Event sent
-2017-11-27T20:53:19+05:30 INFO Event sent
-2017-11-27T20:53:19+05:30 ERR  Failed to connect: Get http://localhost:9200: dial tcp 127.0.0.1:9200: getsockopt: connection refused
-2017-11-27T20:53:19+05:30 INFO retryer: send unwait-signal to consumer
-2017-11-27T20:53:19+05:30 INFO   done
-2017-11-27T20:53:19+05:30 INFO retryer: send wait signal to consumer
-2017-11-27T20:53:19+05:30 INFO   done
-2017-11-27T20:53:20+05:30 INFO Event sent
-2017-11-27T20:53:21+05:30 INFO Event sent
-2017-11-27T20:53:22+05:30 INFO Event sent
-2017-11-27T20:53:23+05:30 INFO Event sent
-2017-11-27T20:53:24+05:30 INFO Event sent
-2017-11-27T20:53:25+05:30 INFO Event sent
-2017-11-27T20:53:26+05:30 INFO Event sent
-2017-11-27T20:53:27+05:30 INFO Event sent
-2017-11-27T20:53:28+05:30 INFO Event sent
-2017-11-27T20:53:29+05:30 INFO Event sent
-2017-11-27T20:53:30+05:30 INFO Event sent
-2017-11-27T20:53:31+05:30 INFO Event sent
-2017-11-27T20:53:32+05:30 INFO Event sent
-2017-11-27T20:53:33+05:30 INFO Event sent
-2017-11-27T20:53:34+05:30 INFO Event sent
-2017-11-27T20:53:35+05:30 INFO Event sent
-2017-11-27T20:53:36+05:30 INFO Event sent
-2017-11-27T20:53:37+05:30 INFO Event sent
-2017-11-27T20:53:38+05:30 INFO Event sent
-2017-11-27T20:53:39+05:30 INFO Event sent
-2017-11-27T20:53:40+05:30 INFO Event sent
-2017-11-27T20:53:41+05:30 INFO Event sent
-2017-11-27T20:53:42+05:30 INFO Event sent
-2017-11-27T20:53:43+05:30 INFO Event sent
-2017-11-27T20:53:44+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=2123864 beat.memstats.memory_total=4038680 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=89 libbeat.pipeline.events.published=30 libbeat.pipeline.events.retry=1 libbeat.pipeline.events.total=30
-2017-11-27T20:53:44+05:30 INFO Event sent
-2017-11-27T20:53:45+05:30 INFO Event sent
-2017-11-27T20:53:46+05:30 INFO Event sent
-2017-11-27T20:53:47+05:30 INFO Event sent
-2017-11-27T20:53:48+05:30 INFO Event sent
-2017-11-27T20:53:49+05:30 INFO Event sent
-2017-11-27T20:53:50+05:30 INFO Event sent
-2017-11-27T20:53:51+05:30 INFO Event sent
-2017-11-27T20:53:52+05:30 INFO Event sent
-2017-11-27T20:53:53+05:30 INFO Event sent
-2017-11-27T20:53:54+05:30 INFO Event sent
-2017-11-27T20:53:55+05:30 INFO Event sent
-2017-11-27T20:53:56+05:30 INFO Event sent
-2017-11-27T20:53:57+05:30 INFO Event sent
-2017-11-27T20:53:58+05:30 INFO Event sent
-2017-11-27T20:53:59+05:30 INFO Event sent
-2017-11-27T20:54:00+05:30 INFO Event sent
-2017-11-27T20:54:01+05:30 INFO Event sent
-2017-11-27T20:54:02+05:30 INFO Event sent
-2017-11-27T20:54:03+05:30 INFO Event sent
-2017-11-27T20:54:04+05:30 INFO Event sent
-2017-11-27T20:54:05+05:30 INFO Event sent
-2017-11-27T20:54:06+05:30 INFO Event sent
-2017-11-27T20:54:07+05:30 INFO Event sent
-2017-11-27T20:54:08+05:30 INFO Event sent
-2017-11-27T20:54:09+05:30 INFO Event sent
-2017-11-27T20:54:10+05:30 INFO Event sent
-2017-11-27T20:54:11+05:30 INFO Event sent
-2017-11-27T20:54:12+05:30 INFO Event sent
-2017-11-27T20:54:13+05:30 INFO Event sent
-2017-11-27T20:54:14+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=2165720 beat.memstats.memory_total=4080536 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=119 libbeat.pipeline.events.published=30 libbeat.pipeline.events.total=30
-2017-11-27T20:54:14+05:30 INFO Event sent
-2017-11-27T20:54:15+05:30 INFO Event sent
-2017-11-27T20:54:16+05:30 INFO Event sent
-2017-11-27T20:54:17+05:30 INFO Event sent
-2017-11-27T20:54:18+05:30 INFO Event sent
-2017-11-27T20:54:19+05:30 INFO Event sent
-2017-11-27T20:54:19+05:30 ERR  Failed to connect: Get http://localhost:9200: dial tcp 127.0.0.1:9200: getsockopt: connection refused
-2017-11-27T20:54:19+05:30 INFO retryer: send unwait-signal to consumer
-2017-11-27T20:54:19+05:30 INFO   done
-2017-11-27T20:54:19+05:30 INFO retryer: send wait signal to consumer
-2017-11-27T20:54:19+05:30 INFO   done
-2017-11-27T20:54:20+05:30 INFO Event sent
-2017-11-27T20:54:21+05:30 INFO Event sent
-2017-11-27T20:54:22+05:30 INFO Event sent
-2017-11-27T20:54:23+05:30 INFO Event sent
-2017-11-27T20:54:24+05:30 INFO Event sent
-2017-11-27T20:54:25+05:30 INFO Event sent
-2017-11-27T20:54:26+05:30 INFO Event sent
-2017-11-27T20:54:27+05:30 INFO Event sent
-2017-11-27T20:54:28+05:30 INFO Event sent
-2017-11-27T20:54:29+05:30 INFO Event sent
-2017-11-27T20:54:30+05:30 INFO Event sent
-2017-11-27T20:54:31+05:30 INFO Event sent
-2017-11-27T20:54:32+05:30 INFO Event sent
-2017-11-27T20:54:33+05:30 INFO Event sent
-2017-11-27T20:54:34+05:30 INFO Event sent
-2017-11-27T20:54:35+05:30 INFO Event sent
-2017-11-27T20:54:36+05:30 INFO Event sent
-2017-11-27T20:54:37+05:30 INFO Event sent
-2017-11-27T20:54:38+05:30 INFO Event sent
-2017-11-27T20:54:39+05:30 INFO Event sent
-2017-11-27T20:54:40+05:30 INFO Event sent
-2017-11-27T20:54:41+05:30 INFO Event sent
-2017-11-27T20:54:42+05:30 INFO Event sent
-2017-11-27T20:54:43+05:30 INFO Event sent
-2017-11-27T20:54:44+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=2033104 beat.memstats.memory_total=4133072 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=149 libbeat.pipeline.events.published=30 libbeat.pipeline.events.retry=2 libbeat.pipeline.events.total=30
-2017-11-27T20:54:44+05:30 INFO Event sent
-2017-11-27T20:54:45+05:30 INFO Event sent
-2017-11-27T20:54:46+05:30 INFO Event sent
-2017-11-27T20:54:47+05:30 INFO Event sent
-2017-11-27T20:54:48+05:30 INFO Event sent
-2017-11-27T20:54:49+05:30 INFO Event sent
-2017-11-27T20:54:50+05:30 INFO Event sent
-2017-11-27T20:54:51+05:30 INFO Event sent
-2017-11-27T20:54:52+05:30 INFO Event sent
-2017-11-27T20:54:53+05:30 INFO Event sent
-2017-11-27T20:54:54+05:30 INFO Event sent
-2017-11-27T20:54:55+05:30 INFO Event sent
-2017-11-27T20:54:56+05:30 INFO Event sent
-2017-11-27T20:54:57+05:30 INFO Event sent
-2017-11-27T20:54:58+05:30 INFO Event sent
-2017-11-27T20:54:59+05:30 INFO Event sent
-2017-11-27T20:55:00+05:30 INFO Event sent
-2017-11-27T20:55:01+05:30 INFO Event sent
-2017-11-27T20:55:02+05:30 INFO Event sent
-2017-11-27T20:55:03+05:30 INFO Event sent
-2017-11-27T20:55:04+05:30 INFO Event sent
-2017-11-27T20:55:05+05:30 INFO Event sent
-2017-11-27T20:55:06+05:30 INFO Event sent
-2017-11-27T20:55:07+05:30 INFO Event sent
-2017-11-27T20:55:08+05:30 INFO Event sent
-2017-11-27T20:55:09+05:30 INFO Event sent
-2017-11-27T20:55:10+05:30 INFO Event sent
-2017-11-27T20:55:11+05:30 INFO Event sent
-2017-11-27T20:55:12+05:30 INFO Event sent
-2017-11-27T20:55:13+05:30 INFO Event sent
-2017-11-27T20:55:14+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=2075344 beat.memstats.memory_total=4175312 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=179 libbeat.pipeline.events.published=30 libbeat.pipeline.events.total=30
-2017-11-27T20:55:14+05:30 INFO Event sent
-2017-11-27T20:55:15+05:30 INFO Event sent
-2017-11-27T20:55:16+05:30 INFO Event sent
-2017-11-27T20:55:17+05:30 INFO Event sent
-2017-11-27T20:55:18+05:30 INFO Event sent
-2017-11-27T20:55:19+05:30 INFO Event sent
-2017-11-27T20:55:19+05:30 ERR  Failed to connect: Get http://localhost:9200: dial tcp 127.0.0.1:9200: getsockopt: connection refused
-2017-11-27T20:55:19+05:30 INFO retryer: send unwait-signal to consumer
-2017-11-27T20:55:19+05:30 INFO   done
-2017-11-27T20:55:19+05:30 INFO retryer: send wait signal to consumer
-2017-11-27T20:55:19+05:30 INFO   done
-2017-11-27T20:55:20+05:30 INFO Event sent
-2017-11-27T20:55:21+05:30 INFO Event sent
-2017-11-27T20:55:22+05:30 INFO Event sent
-2017-11-27T20:55:23+05:30 INFO Event sent
-2017-11-27T20:55:24+05:30 INFO Event sent
-2017-11-27T20:55:25+05:30 INFO Event sent
-2017-11-27T20:55:26+05:30 INFO Event sent
-2017-11-27T20:55:27+05:30 INFO Event sent
-2017-11-27T20:55:28+05:30 INFO Event sent
-2017-11-27T20:55:29+05:30 INFO Event sent
-2017-11-27T20:55:30+05:30 INFO Event sent
-2017-11-27T20:55:31+05:30 INFO Event sent
-2017-11-27T20:55:32+05:30 INFO Event sent
-2017-11-27T20:55:33+05:30 INFO Event sent
-2017-11-27T20:55:34+05:30 INFO Event sent
-2017-11-27T20:55:35+05:30 INFO Event sent
-2017-11-27T20:55:36+05:30 INFO Event sent
-2017-11-27T20:55:37+05:30 INFO Event sent
-2017-11-27T20:55:38+05:30 INFO Event sent
-2017-11-27T20:55:39+05:30 INFO Event sent
-2017-11-27T20:55:40+05:30 INFO Event sent
-2017-11-27T20:55:41+05:30 INFO Event sent
-2017-11-27T20:55:42+05:30 INFO Event sent
-2017-11-27T20:55:43+05:30 INFO Event sent
-2017-11-27T20:55:44+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=2126944 beat.memstats.memory_total=4226912 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=209 libbeat.pipeline.events.published=30 libbeat.pipeline.events.retry=6 libbeat.pipeline.events.total=30
-2017-11-27T20:55:44+05:30 INFO Event sent
-2017-11-27T20:55:45+05:30 INFO Event sent
-2017-11-27T20:55:46+05:30 INFO Event sent
-2017-11-27T20:55:47+05:30 INFO Event sent
-2017-11-27T20:55:48+05:30 INFO Event sent
-2017-11-27T20:55:49+05:30 INFO Event sent
-2017-11-27T20:55:50+05:30 INFO Event sent
-2017-11-27T20:55:51+05:30 INFO Event sent
-2017-11-27T20:55:52+05:30 INFO Event sent
-2017-11-27T20:55:53+05:30 INFO Event sent
-2017-11-27T20:55:54+05:30 INFO Event sent
-2017-11-27T20:55:55+05:30 INFO Event sent
-2017-11-27T20:55:56+05:30 INFO Event sent
-2017-11-27T20:55:57+05:30 INFO Event sent
-2017-11-27T20:55:58+05:30 INFO Event sent
-2017-11-27T20:55:59+05:30 INFO Event sent
-2017-11-27T20:56:00+05:30 INFO Event sent
-2017-11-27T20:56:01+05:30 INFO Event sent
-2017-11-27T20:56:02+05:30 INFO Event sent
-2017-11-27T20:56:03+05:30 INFO Event sent
-2017-11-27T20:56:04+05:30 INFO Event sent
-2017-11-27T20:56:05+05:30 INFO Event sent
-2017-11-27T20:56:06+05:30 INFO Event sent
-2017-11-27T20:56:07+05:30 INFO Event sent
-2017-11-27T20:56:08+05:30 INFO Event sent
-2017-11-27T20:56:09+05:30 INFO Event sent
-2017-11-27T20:56:10+05:30 INFO Event sent
-2017-11-27T20:56:11+05:30 INFO Event sent
-2017-11-27T20:56:12+05:30 INFO Event sent
-2017-11-27T20:56:13+05:30 INFO Event sent
-2017-11-27T20:56:14+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=2169552 beat.memstats.memory_total=4269520 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=239 libbeat.pipeline.events.published=30 libbeat.pipeline.events.total=30
-2017-11-27T20:56:14+05:30 INFO Event sent
-2017-11-27T20:56:15+05:30 INFO Event sent
-2017-11-27T20:56:16+05:30 INFO Event sent
-2017-11-27T20:56:17+05:30 INFO Event sent
-2017-11-27T20:56:18+05:30 INFO Event sent
-2017-11-27T20:56:19+05:30 INFO Event sent
-2017-11-27T20:56:19+05:30 ERR  Failed to connect: Get http://localhost:9200: dial tcp 127.0.0.1:9200: getsockopt: connection refused
-2017-11-27T20:56:19+05:30 INFO retryer: send unwait-signal to consumer
-2017-11-27T20:56:19+05:30 INFO   done
-2017-11-27T20:56:19+05:30 INFO retryer: send wait signal to consumer
-2017-11-27T20:56:19+05:30 INFO   done
-2017-11-27T20:56:20+05:30 INFO Event sent
-2017-11-27T20:56:21+05:30 INFO Event sent
-2017-11-27T20:56:22+05:30 INFO Event sent
-2017-11-27T20:56:23+05:30 INFO Event sent
-2017-11-27T20:56:24+05:30 INFO Event sent
-2017-11-27T20:56:25+05:30 INFO Event sent
-2017-11-27T20:56:26+05:30 INFO Event sent
-2017-11-27T20:56:27+05:30 INFO Event sent
-2017-11-27T20:56:28+05:30 INFO Event sent
-2017-11-27T20:56:29+05:30 INFO Event sent
-2017-11-27T20:56:30+05:30 INFO Event sent
-2017-11-27T20:56:31+05:30 INFO Event sent
-2017-11-27T20:56:32+05:30 INFO Event sent
-2017-11-27T20:56:33+05:30 INFO Event sent
-2017-11-27T20:56:34+05:30 INFO Event sent
-2017-11-27T20:56:35+05:30 INFO Event sent
-2017-11-27T20:56:36+05:30 INFO Event sent
-2017-11-27T20:56:37+05:30 INFO Event sent
-2017-11-27T20:56:38+05:30 INFO Event sent
-2017-11-27T20:56:39+05:30 INFO Event sent
-2017-11-27T20:56:40+05:30 INFO Event sent
-2017-11-27T20:56:41+05:30 INFO Event sent
-2017-11-27T20:56:42+05:30 INFO Event sent
-2017-11-27T20:56:43+05:30 INFO Event sent
-2017-11-27T20:56:44+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=2078048 beat.memstats.memory_total=4320776 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=269 libbeat.pipeline.events.published=30 libbeat.pipeline.events.retry=1 libbeat.pipeline.events.total=30
-2017-11-27T20:56:44+05:30 INFO Event sent
-2017-11-27T20:56:45+05:30 INFO Event sent
-2017-11-27T20:56:46+05:30 INFO Event sent
-2017-11-27T20:56:47+05:30 INFO Event sent
-2017-11-27T20:56:48+05:30 INFO Event sent
-2017-11-27T20:56:49+05:30 INFO Event sent
-2017-11-27T20:56:50+05:30 INFO Event sent
-2017-11-27T20:56:51+05:30 INFO Event sent
-2017-11-27T20:56:52+05:30 INFO Event sent
-2017-11-27T20:56:53+05:30 INFO Event sent
-2017-11-27T20:56:54+05:30 INFO Event sent
-2017-11-27T20:56:55+05:30 INFO Event sent
-2017-11-27T20:56:56+05:30 INFO Event sent
-2017-11-27T20:56:57+05:30 INFO Event sent
-2017-11-27T20:56:58+05:30 INFO Event sent
-2017-11-27T20:56:59+05:30 INFO Event sent
-2017-11-27T20:57:00+05:30 INFO Event sent
-2017-11-27T20:57:01+05:30 INFO Event sent
-2017-11-27T20:57:02+05:30 INFO Event sent
-2017-11-27T20:57:03+05:30 INFO Event sent
-2017-11-27T20:57:04+05:30 INFO Event sent
-2017-11-27T20:57:05+05:30 INFO Event sent
-2017-11-27T20:57:06+05:30 INFO Event sent
-2017-11-27T20:57:07+05:30 INFO Event sent
-2017-11-27T20:57:08+05:30 INFO Event sent
-2017-11-27T20:57:09+05:30 INFO Event sent
-2017-11-27T20:57:10+05:30 INFO Event sent
-2017-11-27T20:57:11+05:30 INFO Event sent
-2017-11-27T20:57:12+05:30 INFO Event sent
-2017-11-27T20:57:13+05:30 INFO Event sent
-2017-11-27T20:57:14+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=2120512 beat.memstats.memory_total=4363240 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=299 libbeat.pipeline.events.published=30 libbeat.pipeline.events.total=30
-2017-11-27T20:57:14+05:30 INFO Event sent
-2017-11-27T20:57:15+05:30 INFO Event sent
-2017-11-27T20:57:16+05:30 INFO Event sent
-2017-11-27T20:57:17+05:30 INFO Event sent
-2017-11-27T20:57:18+05:30 INFO Event sent
-2017-11-27T20:57:19+05:30 INFO Event sent
-2017-11-27T20:57:19+05:30 ERR  Failed to connect: Get http://localhost:9200: dial tcp 127.0.0.1:9200: getsockopt: connection refused
-2017-11-27T20:57:19+05:30 INFO retryer: send unwait-signal to consumer
-2017-11-27T20:57:19+05:30 INFO   done
-2017-11-27T20:57:19+05:30 INFO retryer: send wait signal to consumer
-2017-11-27T20:57:19+05:30 INFO   done
-2017-11-27T20:57:20+05:30 INFO Event sent
-2017-11-27T20:57:21+05:30 INFO Event sent
-2017-11-27T20:57:22+05:30 INFO Event sent
-2017-11-27T20:57:23+05:30 INFO Event sent
-2017-11-27T20:57:24+05:30 INFO Event sent
-2017-11-27T20:57:25+05:30 INFO Event sent
-2017-11-27T20:57:26+05:30 INFO Event sent
-2017-11-27T20:57:27+05:30 INFO Event sent
-2017-11-27T20:57:28+05:30 INFO Event sent
-2017-11-27T20:57:29+05:30 INFO Event sent
-2017-11-27T20:57:30+05:30 INFO Event sent
-2017-11-27T20:57:31+05:30 INFO Event sent
-2017-11-27T20:57:32+05:30 INFO Event sent
-2017-11-27T20:57:33+05:30 INFO Event sent
-2017-11-27T20:57:34+05:30 INFO Event sent
-2017-11-27T20:57:35+05:30 INFO Event sent
-2017-11-27T20:57:36+05:30 INFO Event sent
-2017-11-27T20:57:37+05:30 INFO Event sent
-2017-11-27T20:57:38+05:30 INFO Event sent
-2017-11-27T20:57:39+05:30 INFO Event sent
-2017-11-27T20:57:40+05:30 INFO Event sent
-2017-11-27T20:57:41+05:30 INFO Event sent
-2017-11-27T20:57:42+05:30 INFO Event sent
-2017-11-27T20:57:43+05:30 INFO Event sent
-2017-11-27T20:57:44+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=2170288 beat.memstats.memory_total=4413016 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=329 libbeat.pipeline.events.published=30 libbeat.pipeline.events.retry=2 libbeat.pipeline.events.total=30
-2017-11-27T20:57:44+05:30 INFO Event sent
-2017-11-27T20:57:45+05:30 INFO Event sent
-2017-11-27T20:57:46+05:30 INFO Event sent
-2017-11-27T20:57:47+05:30 INFO Event sent
-2017-11-27T20:57:48+05:30 INFO Event sent
-2017-11-27T20:57:49+05:30 INFO Event sent
-2017-11-27T20:57:50+05:30 INFO Event sent
-2017-11-27T20:57:51+05:30 INFO Event sent
-2017-11-27T20:57:52+05:30 INFO Event sent
-2017-11-27T20:57:53+05:30 INFO Event sent
-2017-11-27T20:57:54+05:30 INFO Event sent
-2017-11-27T20:57:55+05:30 INFO Event sent
-2017-11-27T20:57:56+05:30 INFO Event sent
-2017-11-27T20:57:57+05:30 INFO Event sent
-2017-11-27T20:57:58+05:30 INFO Event sent
-2017-11-27T20:57:59+05:30 INFO Event sent
-2017-11-27T20:58:00+05:30 INFO Event sent
-2017-11-27T20:58:01+05:30 INFO Event sent
-2017-11-27T20:58:02+05:30 INFO Event sent
-2017-11-27T20:58:03+05:30 INFO Event sent
-2017-11-27T20:58:04+05:30 INFO Event sent
-2017-11-27T20:58:05+05:30 INFO Event sent
-2017-11-27T20:58:06+05:30 INFO Event sent
-2017-11-27T20:58:07+05:30 INFO Event sent
-2017-11-27T20:58:08+05:30 INFO Event sent
-2017-11-27T20:58:09+05:30 INFO Event sent
-2017-11-27T20:58:10+05:30 INFO Event sent
-2017-11-27T20:58:11+05:30 INFO Event sent
-2017-11-27T20:58:12+05:30 INFO Event sent
-2017-11-27T20:58:13+05:30 INFO Event sent
-2017-11-27T20:58:14+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=2211696 beat.memstats.memory_total=4454424 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=359 libbeat.pipeline.events.published=30 libbeat.pipeline.events.total=30
-2017-11-27T20:58:14+05:30 INFO Event sent
-2017-11-27T20:58:15+05:30 INFO Event sent
-2017-11-27T20:58:16+05:30 INFO Event sent
-2017-11-27T20:58:17+05:30 INFO Event sent
-2017-11-27T20:58:18+05:30 INFO Event sent
-2017-11-27T20:58:19+05:30 INFO Event sent
-2017-11-27T20:58:19+05:30 ERR  Failed to connect: Get http://localhost:9200: dial tcp 127.0.0.1:9200: getsockopt: connection refused
-2017-11-27T20:58:19+05:30 INFO retryer: send unwait-signal to consumer
-2017-11-27T20:58:19+05:30 INFO   done
-2017-11-27T20:58:19+05:30 INFO retryer: send wait signal to consumer
-2017-11-27T20:58:19+05:30 INFO   done
-2017-11-27T20:58:20+05:30 INFO Event sent
-2017-11-27T20:58:21+05:30 INFO Event sent
-2017-11-27T20:58:22+05:30 INFO Event sent
-2017-11-27T20:58:23+05:30 INFO Event sent
-2017-11-27T20:58:24+05:30 INFO Event sent
-2017-11-27T20:58:25+05:30 INFO Event sent
-2017-11-27T20:58:26+05:30 INFO Event sent
-2017-11-27T20:58:27+05:30 INFO Event sent
-2017-11-27T20:58:28+05:30 INFO Event sent
-2017-11-27T20:58:29+05:30 INFO Event sent
-2017-11-27T20:58:30+05:30 INFO Event sent
-2017-11-27T20:58:31+05:30 INFO Event sent
-2017-11-27T20:58:32+05:30 INFO Event sent
-2017-11-27T20:58:33+05:30 INFO Event sent
-2017-11-27T20:58:34+05:30 INFO Event sent
-2017-11-27T20:58:35+05:30 INFO Event sent
-2017-11-27T20:58:36+05:30 INFO Event sent
-2017-11-27T20:58:37+05:30 INFO Event sent
-2017-11-27T20:58:38+05:30 INFO Event sent
-2017-11-27T20:58:39+05:30 INFO Event sent
-2017-11-27T20:58:40+05:30 INFO Event sent
-2017-11-27T20:58:41+05:30 INFO Event sent
-2017-11-27T20:58:42+05:30 INFO Event sent
-2017-11-27T20:58:43+05:30 INFO Event sent
-2017-11-27T20:58:44+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=2123136 beat.memstats.memory_total=4507776 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=389 libbeat.pipeline.events.published=30 libbeat.pipeline.events.retry=6 libbeat.pipeline.events.total=30
-2017-11-27T20:58:44+05:30 INFO Event sent
-2017-11-27T20:58:45+05:30 INFO Event sent
-2017-11-27T20:58:46+05:30 INFO Event sent
-2017-11-27T20:58:47+05:30 INFO Event sent
-2017-11-27T20:58:48+05:30 INFO Event sent
-2017-11-27T20:58:49+05:30 INFO Event sent
-2017-11-27T20:58:50+05:30 INFO Event sent
-2017-11-27T20:58:51+05:30 INFO Event sent
-2017-11-27T20:58:52+05:30 INFO Event sent
-2017-11-27T20:58:53+05:30 INFO Event sent
-2017-11-27T20:58:54+05:30 INFO Event sent
-2017-11-27T20:58:55+05:30 INFO Event sent
-2017-11-27T20:58:56+05:30 INFO Event sent
-2017-11-27T20:58:57+05:30 INFO Event sent
-2017-11-27T20:58:58+05:30 INFO Event sent
-2017-11-27T20:58:59+05:30 INFO Event sent
-2017-11-27T20:59:00+05:30 INFO Event sent
-2017-11-27T20:59:01+05:30 INFO Event sent
-2017-11-27T20:59:02+05:30 INFO Event sent
-2017-11-27T20:59:03+05:30 INFO Event sent
-2017-11-27T20:59:04+05:30 INFO Event sent
-2017-11-27T20:59:05+05:30 INFO Event sent
-2017-11-27T20:59:06+05:30 INFO Event sent
-2017-11-27T20:59:07+05:30 INFO Event sent
-2017-11-27T20:59:08+05:30 INFO Event sent
-2017-11-27T20:59:09+05:30 INFO Event sent
-2017-11-27T20:59:10+05:30 INFO Event sent
-2017-11-27T20:59:11+05:30 INFO Event sent
-2017-11-27T20:59:12+05:30 INFO Event sent
-2017-11-27T20:59:13+05:30 INFO Event sent
-2017-11-27T20:59:14+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=2165808 beat.memstats.memory_total=4550448 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=419 libbeat.pipeline.events.published=30 libbeat.pipeline.events.total=30
-2017-11-27T20:59:14+05:30 INFO Event sent
-2017-11-27T20:59:15+05:30 INFO Event sent
-2017-11-27T20:59:16+05:30 INFO Event sent
-2017-11-27T20:59:17+05:30 INFO Event sent
-2017-11-27T20:59:18+05:30 INFO Event sent
-2017-11-27T20:59:19+05:30 INFO Event sent
-2017-11-27T20:59:19+05:30 ERR  Failed to connect: Get http://localhost:9200: dial tcp 127.0.0.1:9200: getsockopt: connection refused
-2017-11-27T20:59:19+05:30 INFO retryer: send unwait-signal to consumer
-2017-11-27T20:59:19+05:30 INFO   done
-2017-11-27T20:59:19+05:30 INFO retryer: send wait signal to consumer
-2017-11-27T20:59:19+05:30 INFO   done
-2017-11-27T20:59:20+05:30 INFO Event sent
-2017-11-27T20:59:21+05:30 INFO Event sent
-2017-11-27T20:59:22+05:30 INFO Event sent
-2017-11-27T20:59:23+05:30 INFO Event sent
-2017-11-27T20:59:24+05:30 INFO Event sent
-2017-11-27T20:59:25+05:30 INFO Event sent
-2017-11-27T20:59:26+05:30 INFO Event sent
-2017-11-27T20:59:27+05:30 INFO Event sent
-2017-11-27T20:59:28+05:30 INFO Event sent
-2017-11-27T20:59:29+05:30 INFO Event sent
-2017-11-27T20:59:30+05:30 INFO Event sent
-2017-11-27T20:59:31+05:30 INFO Event sent
-2017-11-27T20:59:32+05:30 INFO Event sent
-2017-11-27T20:59:33+05:30 INFO Event sent
-2017-11-27T20:59:34+05:30 INFO Event sent
-2017-11-27T20:59:35+05:30 INFO Event sent
-2017-11-27T20:59:36+05:30 INFO Event sent
-2017-11-27T20:59:37+05:30 INFO Event sent
-2017-11-27T20:59:38+05:30 INFO Event sent
-2017-11-27T20:59:39+05:30 INFO Event sent
-2017-11-27T20:59:40+05:30 INFO Event sent
-2017-11-27T20:59:41+05:30 INFO Event sent
-2017-11-27T20:59:42+05:30 INFO Event sent
-2017-11-27T20:59:43+05:30 INFO Event sent
-2017-11-27T20:59:44+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=2215888 beat.memstats.memory_total=4600528 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=449 libbeat.pipeline.events.published=30 libbeat.pipeline.events.retry=1 libbeat.pipeline.events.total=30
-2017-11-27T20:59:44+05:30 INFO Event sent
-2017-11-27T20:59:45+05:30 INFO Event sent
-2017-11-27T20:59:46+05:30 INFO Event sent
-2017-11-27T20:59:47+05:30 INFO Event sent
-2017-11-27T20:59:48+05:30 INFO Event sent
-2017-11-27T20:59:49+05:30 INFO Event sent
-2017-11-27T20:59:50+05:30 INFO Event sent
-2017-11-27T20:59:51+05:30 INFO Event sent
-2017-11-27T20:59:52+05:30 INFO Event sent
-2017-11-27T20:59:53+05:30 INFO Event sent
-2017-11-27T20:59:54+05:30 INFO Event sent
-2017-11-27T20:59:55+05:30 INFO Event sent
-2017-11-27T20:59:56+05:30 INFO Event sent
-2017-11-27T20:59:57+05:30 INFO Event sent
-2017-11-27T20:59:58+05:30 INFO Event sent
-2017-11-27T20:59:59+05:30 INFO Event sent
-2017-11-27T21:00:00+05:30 INFO Event sent
-2017-11-27T21:00:01+05:30 INFO Event sent
-2017-11-27T21:00:02+05:30 INFO Event sent
-2017-11-27T21:00:03+05:30 INFO Event sent
-2017-11-27T21:00:04+05:30 INFO Event sent
-2017-11-27T21:00:05+05:30 INFO Event sent
-2017-11-27T21:00:06+05:30 INFO Event sent
-2017-11-27T21:00:07+05:30 INFO Event sent
-2017-11-27T21:00:08+05:30 INFO Event sent
-2017-11-27T21:00:09+05:30 INFO Event sent
-2017-11-27T21:00:10+05:30 INFO Event sent
-2017-11-27T21:00:11+05:30 INFO Event sent
-2017-11-27T21:00:12+05:30 INFO Event sent
-2017-11-27T21:00:13+05:30 INFO Event sent
-2017-11-27T21:00:14+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=2257104 beat.memstats.memory_total=4641744 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=479 libbeat.pipeline.events.published=30 libbeat.pipeline.events.total=30
-2017-11-27T21:00:14+05:30 INFO Event sent
-2017-11-27T21:00:15+05:30 INFO Event sent
-2017-11-27T21:00:16+05:30 INFO Event sent
-2017-11-27T21:00:17+05:30 INFO Event sent
-2017-11-27T21:00:18+05:30 INFO Event sent
-2017-11-27T21:00:19+05:30 INFO Event sent
-2017-11-27T21:00:19+05:30 ERR  Failed to connect: Get http://localhost:9200: dial tcp 127.0.0.1:9200: getsockopt: connection refused
-2017-11-27T21:00:19+05:30 INFO retryer: send unwait-signal to consumer
-2017-11-27T21:00:19+05:30 INFO   done
-2017-11-27T21:00:19+05:30 INFO retryer: send wait signal to consumer
-2017-11-27T21:00:19+05:30 INFO   done
-2017-11-27T21:00:20+05:30 INFO Event sent
-2017-11-27T21:00:21+05:30 INFO Event sent
-2017-11-27T21:00:22+05:30 INFO Event sent
-2017-11-27T21:00:23+05:30 INFO Event sent
-2017-11-27T21:00:24+05:30 INFO Event sent
-2017-11-27T21:00:25+05:30 INFO Event sent
-2017-11-27T21:00:26+05:30 INFO Event sent
-2017-11-27T21:00:27+05:30 INFO Event sent
-2017-11-27T21:00:28+05:30 INFO Event sent
-2017-11-27T21:00:29+05:30 INFO Event sent
-2017-11-27T21:00:30+05:30 INFO Event sent
-2017-11-27T21:00:31+05:30 INFO Event sent
-2017-11-27T21:00:32+05:30 INFO Event sent
-2017-11-27T21:00:33+05:30 INFO Event sent
-2017-11-27T21:00:34+05:30 INFO Event sent
-2017-11-27T21:00:35+05:30 INFO Event sent
-2017-11-27T21:00:36+05:30 INFO Event sent
-2017-11-27T21:00:37+05:30 INFO Event sent
-2017-11-27T21:00:38+05:30 INFO Event sent
-2017-11-27T21:00:39+05:30 INFO Event sent
-2017-11-27T21:00:40+05:30 INFO Event sent
-2017-11-27T21:00:41+05:30 INFO Event sent
-2017-11-27T21:00:42+05:30 INFO Event sent
-2017-11-27T21:00:43+05:30 INFO Event sent
-2017-11-27T21:00:44+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4249216 beat.memstats.memory_alloc=2165568 beat.memstats.memory_total=4692792 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=509 libbeat.pipeline.events.published=30 libbeat.pipeline.events.retry=2 libbeat.pipeline.events.total=30
-2017-11-27T21:00:44+05:30 INFO Event sent
-2017-11-27T21:00:45+05:30 INFO Event sent
-2017-11-27T21:00:46+05:30 INFO Event sent
-2017-11-27T21:00:47+05:30 INFO Event sent
-2017-11-27T21:00:48+05:30 INFO Event sent
-2017-11-27T21:00:49+05:30 INFO Event sent
-2017-11-27T21:00:50+05:30 INFO Event sent
-2017-11-27T21:00:51+05:30 INFO Event sent
-2017-11-27T21:00:52+05:30 INFO Event sent
-2017-11-27T21:00:53+05:30 INFO Event sent
-2017-11-27T21:00:54+05:30 INFO Event sent
-2017-11-27T21:00:55+05:30 INFO Event sent
-2017-11-27T21:00:56+05:30 INFO Event sent
-2017-11-27T21:00:57+05:30 INFO Event sent
-2017-11-27T21:00:58+05:30 INFO Event sent
-2017-11-27T21:00:59+05:30 INFO Event sent
-2017-11-27T21:01:00+05:30 INFO Event sent
-2017-11-27T21:01:01+05:30 INFO Event sent
-2017-11-27T21:01:02+05:30 INFO Event sent
-2017-11-27T21:01:03+05:30 INFO Event sent
-2017-11-27T21:01:04+05:30 INFO Event sent
-2017-11-27T21:01:05+05:30 INFO Event sent
-2017-11-27T21:01:06+05:30 INFO Event sent
-2017-11-27T21:01:07+05:30 INFO Event sent
-2017-11-27T21:01:08+05:30 INFO Event sent
-2017-11-27T21:01:09+05:30 INFO Event sent
-2017-11-27T21:01:10+05:30 INFO Event sent
-2017-11-27T21:01:11+05:30 INFO Event sent
-2017-11-27T21:01:12+05:30 INFO Event sent
-2017-11-27T21:01:13+05:30 INFO Event sent
-2017-11-27T21:01:14+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4249216 beat.memstats.memory_alloc=2208176 beat.memstats.memory_total=4735400 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=539 libbeat.pipeline.events.published=30 libbeat.pipeline.events.total=30
-2017-11-27T21:01:14+05:30 INFO Event sent
-2017-11-27T21:01:15+05:30 INFO Event sent
-2017-11-27T21:01:16+05:30 INFO Event sent
-2017-11-27T21:01:17+05:30 INFO Event sent
-2017-11-27T21:01:18+05:30 INFO Event sent
-2017-11-27T21:01:19+05:30 INFO Event sent
-2017-11-27T21:01:19+05:30 ERR  Failed to connect: Get http://localhost:9200: dial tcp 127.0.0.1:9200: getsockopt: connection refused
-2017-11-27T21:01:19+05:30 INFO retryer: send unwait-signal to consumer
-2017-11-27T21:01:19+05:30 INFO   done
-2017-11-27T21:01:19+05:30 INFO retryer: send wait signal to consumer
-2017-11-27T21:01:19+05:30 INFO   done
-2017-11-27T21:01:20+05:30 INFO Event sent
-2017-11-27T21:01:21+05:30 INFO Event sent
-2017-11-27T21:01:22+05:30 INFO Event sent
-2017-11-27T21:01:23+05:30 INFO Event sent
-2017-11-27T21:01:24+05:30 INFO Event sent
-2017-11-27T21:01:25+05:30 INFO Event sent
-2017-11-27T21:01:26+05:30 INFO Event sent
-2017-11-27T21:01:27+05:30 INFO Event sent
-2017-11-27T21:01:28+05:30 INFO Event sent
-2017-11-27T21:01:29+05:30 INFO Event sent
-2017-11-27T21:01:30+05:30 INFO Event sent
-2017-11-27T21:01:31+05:30 INFO Event sent
-2017-11-27T21:01:32+05:30 INFO Event sent
-2017-11-27T21:01:33+05:30 INFO Event sent
-2017-11-27T21:01:34+05:30 INFO Event sent
-2017-11-27T21:01:35+05:30 INFO Event sent
-2017-11-27T21:01:36+05:30 INFO Event sent
-2017-11-27T21:01:37+05:30 INFO Event sent
-2017-11-27T21:01:38+05:30 INFO Event sent
-2017-11-27T21:01:39+05:30 INFO Event sent
-2017-11-27T21:01:40+05:30 INFO Event sent
-2017-11-27T21:01:41+05:30 INFO Event sent
-2017-11-27T21:01:42+05:30 INFO Event sent
-2017-11-27T21:01:43+05:30 INFO Event sent
-2017-11-27T21:01:44+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4249216 beat.memstats.memory_alloc=2257872 beat.memstats.memory_total=4785096 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=569 libbeat.pipeline.events.published=30 libbeat.pipeline.events.retry=6 libbeat.pipeline.events.total=30
-2017-11-27T21:01:44+05:30 INFO Event sent
-2017-11-27T21:01:45+05:30 INFO Event sent
-2017-11-27T21:01:46+05:30 INFO Event sent
-2017-11-27T21:01:47+05:30 INFO Event sent
-2017-11-27T21:01:48+05:30 INFO Event sent
-2017-11-27T21:01:49+05:30 INFO Event sent
-2017-11-27T21:01:50+05:30 INFO Event sent
-2017-11-27T21:01:51+05:30 INFO Event sent
-2017-11-27T21:01:52+05:30 INFO Event sent
-2017-11-27T21:01:53+05:30 INFO Event sent
-2017-11-27T21:01:54+05:30 INFO Event sent
-2017-11-27T21:01:55+05:30 INFO Event sent
-2017-11-27T21:01:56+05:30 INFO Event sent
-2017-11-27T21:01:57+05:30 INFO Event sent
-2017-11-27T21:01:58+05:30 INFO Event sent
-2017-11-27T21:01:59+05:30 INFO Event sent
-2017-11-27T21:02:00+05:30 INFO Event sent
-2017-11-27T21:02:01+05:30 INFO Event sent
-2017-11-27T21:02:02+05:30 INFO Event sent
-2017-11-27T21:02:03+05:30 INFO Event sent
-2017-11-27T21:02:04+05:30 INFO Event sent
-2017-11-27T21:02:05+05:30 INFO Event sent
-2017-11-27T21:02:06+05:30 INFO Event sent
-2017-11-27T21:02:07+05:30 INFO Event sent
-2017-11-27T21:02:08+05:30 INFO Event sent
-2017-11-27T21:02:09+05:30 INFO Event sent
-2017-11-27T21:02:10+05:30 INFO Event sent
-2017-11-27T21:02:11+05:30 INFO Event sent
-2017-11-27T21:02:12+05:30 INFO Event sent
-2017-11-27T21:02:13+05:30 INFO Event sent
-2017-11-27T21:02:14+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4249216 beat.memstats.memory_alloc=2299072 beat.memstats.memory_total=4826296 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=599 libbeat.pipeline.events.published=30 libbeat.pipeline.events.total=30
-2017-11-27T21:02:14+05:30 INFO Event sent
-2017-11-27T21:02:15+05:30 INFO Event sent
-2017-11-27T21:02:16+05:30 INFO Event sent
-2017-11-27T21:02:17+05:30 INFO Event sent
-2017-11-27T21:02:18+05:30 INFO Event sent
-2017-11-27T21:02:19+05:30 INFO Event sent
-2017-11-27T21:02:19+05:30 ERR  Failed to connect: Get http://localhost:9200: dial tcp 127.0.0.1:9200: getsockopt: connection refused
-2017-11-27T21:02:19+05:30 INFO retryer: send unwait-signal to consumer
-2017-11-27T21:02:19+05:30 INFO   done
-2017-11-27T21:02:19+05:30 INFO retryer: send wait signal to consumer
-2017-11-27T21:02:19+05:30 INFO   done
-2017-11-27T21:02:20+05:30 INFO Event sent
-2017-11-27T21:02:21+05:30 INFO Event sent
-2017-11-27T21:02:22+05:30 INFO Event sent
-2017-11-27T21:02:23+05:30 INFO Event sent
-2017-11-27T21:02:24+05:30 INFO Event sent
-2017-11-27T21:02:25+05:30 INFO Event sent
-2017-11-27T21:02:26+05:30 INFO Event sent
-2017-11-27T21:02:27+05:30 INFO Event sent
-2017-11-27T21:02:28+05:30 INFO Event sent
-2017-11-27T21:02:29+05:30 INFO Event sent
-2017-11-27T21:02:30+05:30 INFO Event sent
-2017-11-27T21:02:31+05:30 INFO Event sent
-2017-11-27T21:02:32+05:30 INFO Event sent
-2017-11-27T21:02:33+05:30 INFO Event sent
-2017-11-27T21:02:34+05:30 INFO Event sent
-2017-11-27T21:02:35+05:30 INFO Event sent
-2017-11-27T21:02:36+05:30 INFO Event sent
-2017-11-27T21:02:37+05:30 INFO Event sent
-2017-11-27T21:02:38+05:30 INFO Event sent
-2017-11-27T21:02:39+05:30 INFO Event sent
-2017-11-27T21:02:40+05:30 INFO Event sent
-2017-11-27T21:02:41+05:30 INFO Event sent
-2017-11-27T21:02:42+05:30 INFO Event sent
-2017-11-27T21:02:43+05:30 INFO Event sent
-2017-11-27T21:02:44+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4335744 beat.memstats.memory_alloc=2204880 beat.memstats.memory_total=4874288 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=629 libbeat.pipeline.events.published=30 libbeat.pipeline.events.retry=1 libbeat.pipeline.events.total=30
-2017-11-27T21:02:44+05:30 INFO Event sent
-2017-11-27T21:02:45+05:30 INFO Event sent
-2017-11-27T21:02:46+05:30 INFO Event sent
-2017-11-27T21:02:47+05:30 INFO Event sent
-2017-11-27T21:02:48+05:30 INFO Event sent
-2017-11-27T21:02:49+05:30 INFO Event sent
-2017-11-27T21:02:50+05:30 INFO Event sent
-2017-11-27T21:02:51+05:30 INFO Event sent
-2017-11-27T21:02:52+05:30 INFO Event sent
-2017-11-27T21:02:53+05:30 INFO Event sent
-2017-11-27T21:02:54+05:30 INFO Event sent
-2017-11-27T21:02:55+05:30 INFO Event sent
-2017-11-27T21:02:56+05:30 INFO Event sent
-2017-11-27T21:02:57+05:30 INFO Event sent
-2017-11-27T21:02:58+05:30 INFO Event sent
-2017-11-27T21:02:59+05:30 INFO Event sent
-2017-11-27T21:03:00+05:30 INFO Event sent
-2017-11-27T21:03:01+05:30 INFO Event sent
-2017-11-27T21:03:02+05:30 INFO Event sent
-2017-11-27T21:03:03+05:30 INFO Event sent
-2017-11-27T21:03:04+05:30 INFO Event sent
-2017-11-27T21:03:05+05:30 INFO Event sent
-2017-11-27T21:03:06+05:30 INFO Event sent
-2017-11-27T21:03:07+05:30 INFO Event sent
-2017-11-27T21:03:08+05:30 INFO Event sent
-2017-11-27T21:03:09+05:30 INFO Event sent
-2017-11-27T21:03:10+05:30 INFO Event sent
-2017-11-27T21:03:11+05:30 INFO Event sent
-2017-11-27T21:03:12+05:30 INFO Event sent
-2017-11-27T21:03:13+05:30 INFO Event sent
-2017-11-27T21:03:14+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4335744 beat.memstats.memory_alloc=2250960 beat.memstats.memory_total=4920368 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=659 libbeat.pipeline.events.published=30 libbeat.pipeline.events.total=30
-2017-11-27T21:03:14+05:30 INFO Event sent
-2017-11-27T21:03:15+05:30 INFO Event sent
-2017-11-27T21:03:16+05:30 INFO Event sent
-2017-11-27T21:03:17+05:30 INFO Event sent
-2017-11-27T21:03:18+05:30 INFO Event sent
-2017-11-27T21:03:19+05:30 INFO Event sent
-2017-11-27T21:03:19+05:30 ERR  Failed to connect: Get http://localhost:9200: dial tcp 127.0.0.1:9200: getsockopt: connection refused
-2017-11-27T21:03:19+05:30 INFO retryer: send unwait-signal to consumer
-2017-11-27T21:03:19+05:30 INFO   done
-2017-11-27T21:03:19+05:30 INFO retryer: send wait signal to consumer
-2017-11-27T21:03:19+05:30 INFO   done
-2017-11-27T21:03:20+05:30 INFO Event sent
-2017-11-27T21:03:21+05:30 INFO Event sent
-2017-11-27T21:03:22+05:30 INFO Event sent
-2017-11-27T21:03:23+05:30 INFO Event sent
+2017-11-30T00:38:42+05:30 INFO Home path: [/home/sujith/GoWorkUnx/src/github.com/sujith-attinad/microscopebeat] Config path: [/home/sujith/GoWorkUnx/src/github.com/sujith-attinad/microscopebeat] Data path: [/home/sujith/GoWorkUnx/src/github.com/sujith-attinad/microscopebeat/data] Logs path: [/home/sujith/GoWorkUnx/src/github.com/sujith-attinad/microscopebeat/logs]
+2017-11-30T00:38:42+05:30 INFO Metrics logging every 30s
+2017-11-30T00:38:42+05:30 INFO Beat UUID: d6d9fb1a-e01c-4ddd-8ec0-3c05b3af2203
+2017-11-30T00:38:42+05:30 INFO Setup Beat: microscopebeat; Version: 7.0.0-alpha1
+2017-11-30T00:38:42+05:30 INFO Elasticsearch url: http://localhost:9200
+2017-11-30T00:38:42+05:30 INFO Beat name: ATT-LP-32
+2017-11-30T00:38:42+05:30 INFO microscopebeat start running.
+2017-11-30T00:38:42+05:30 INFO microscopebeat is running! Hit CTRL-C to stop it.
+2017-11-30T00:38:52+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:38:52+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:38:52+05:30 INFO hello 
+2017-11-30T00:38:52+05:30 INFO Event sent
+2017-11-30T00:38:54+05:30 ERR  Failed to connect: Get http://localhost:9200: dial tcp 127.0.0.1:9200: getsockopt: connection refused
+2017-11-30T00:38:56+05:30 ERR  Failed to connect: Get http://localhost:9200: dial tcp 127.0.0.1:9200: getsockopt: connection refused
+2017-11-30T00:39:00+05:30 ERR  Failed to connect: Get http://localhost:9200: dial tcp 127.0.0.1:9200: getsockopt: connection refused
+2017-11-30T00:39:02+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:39:02+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:39:02+05:30 INFO hello 
+2017-11-30T00:39:02+05:30 INFO Event sent
+2017-11-30T00:39:08+05:30 ERR  Failed to connect: Get http://localhost:9200: dial tcp 127.0.0.1:9200: getsockopt: connection refused
+2017-11-30T00:39:12+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30003 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=1678392 beat.memstats.memory_total=3598024 libbeat.config.module.running=0 libbeat.output.type=elasticsearch libbeat.pipeline.clients=1 libbeat.pipeline.events.active=2 libbeat.pipeline.events.published=2 libbeat.pipeline.events.retry=4 libbeat.pipeline.events.total=2
+2017-11-30T00:39:12+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:39:12+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:39:12+05:30 INFO hello 
+2017-11-30T00:39:12+05:30 INFO Event sent
+2017-11-30T00:39:22+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:39:22+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:39:22+05:30 INFO hello 
+2017-11-30T00:39:22+05:30 INFO Event sent
+2017-11-30T00:39:24+05:30 ERR  Failed to connect: Get http://localhost:9200: dial tcp 127.0.0.1:9200: getsockopt: connection refused
+2017-11-30T00:39:32+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:39:32+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:39:32+05:30 INFO hello 
+2017-11-30T00:39:32+05:30 INFO Event sent
+2017-11-30T00:39:42+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=1888376 beat.memstats.memory_total=3808008 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=5 libbeat.pipeline.events.published=3 libbeat.pipeline.events.total=3
+2017-11-30T00:39:42+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:39:42+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:39:42+05:30 INFO hello 
+2017-11-30T00:39:42+05:30 INFO Event sent
+2017-11-30T00:39:52+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:39:52+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:39:52+05:30 INFO hello 
+2017-11-30T00:39:52+05:30 INFO Event sent
+2017-11-30T00:39:56+05:30 ERR  Failed to connect: Get http://localhost:9200: dial tcp 127.0.0.1:9200: getsockopt: connection refused
+2017-11-30T00:40:02+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:40:02+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:40:02+05:30 INFO hello 
+2017-11-30T00:40:02+05:30 INFO Event sent
+2017-11-30T00:40:12+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=1931816 beat.memstats.memory_total=3851448 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=8 libbeat.pipeline.events.published=3 libbeat.pipeline.events.retry=1 libbeat.pipeline.events.total=3
+2017-11-30T00:40:12+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:40:12+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:40:12+05:30 INFO hello 
+2017-11-30T00:40:12+05:30 INFO Event sent
+2017-11-30T00:40:22+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:40:22+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:40:22+05:30 INFO hello 
+2017-11-30T00:40:22+05:30 INFO Event sent
+2017-11-30T00:40:32+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:40:32+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:40:32+05:30 INFO hello 
+2017-11-30T00:40:32+05:30 INFO Event sent
+2017-11-30T00:40:42+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=1965080 beat.memstats.memory_total=3884712 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=11 libbeat.pipeline.events.published=3 libbeat.pipeline.events.total=3
+2017-11-30T00:40:42+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:40:42+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:40:42+05:30 INFO hello 
+2017-11-30T00:40:42+05:30 INFO Event sent
+2017-11-30T00:40:52+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:40:52+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:40:52+05:30 INFO hello 
+2017-11-30T00:40:52+05:30 INFO Event sent
+2017-11-30T00:40:56+05:30 ERR  Failed to connect: Get http://localhost:9200: dial tcp 127.0.0.1:9200: getsockopt: connection refused
+2017-11-30T00:40:56+05:30 INFO retryer: send wait signal to consumer
+2017-11-30T00:40:56+05:30 INFO   done
+2017-11-30T00:41:02+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:41:02+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:41:02+05:30 INFO hello 
+2017-11-30T00:41:02+05:30 INFO Event sent
+2017-11-30T00:41:12+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=1989008 beat.memstats.memory_total=4100976 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=14 libbeat.pipeline.events.published=3 libbeat.pipeline.events.total=3
+2017-11-30T00:41:12+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:41:12+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:41:12+05:30 INFO hello 
+2017-11-30T00:41:12+05:30 INFO Event sent
+2017-11-30T00:41:22+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:41:22+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:41:22+05:30 INFO hello 
+2017-11-30T00:41:22+05:30 INFO Event sent
+2017-11-30T00:41:32+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:41:32+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:41:32+05:30 INFO hello 
+2017-11-30T00:41:32+05:30 INFO Event sent
+2017-11-30T00:41:42+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=2026064 beat.memstats.memory_total=4138032 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=17 libbeat.pipeline.events.published=3 libbeat.pipeline.events.total=3
+2017-11-30T00:41:42+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:41:42+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:41:42+05:30 INFO hello 
+2017-11-30T00:41:42+05:30 INFO Event sent
+2017-11-30T00:41:52+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:41:52+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:41:52+05:30 INFO hello 
+2017-11-30T00:41:52+05:30 INFO Event sent
+2017-11-30T00:41:56+05:30 ERR  Failed to connect: Get http://localhost:9200: dial tcp 127.0.0.1:9200: getsockopt: connection refused
+2017-11-30T00:41:56+05:30 INFO retryer: send unwait-signal to consumer
+2017-11-30T00:41:56+05:30 INFO   done
+2017-11-30T00:41:56+05:30 INFO retryer: send wait signal to consumer
+2017-11-30T00:41:56+05:30 INFO   done
+2017-11-30T00:42:02+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:42:02+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:42:02+05:30 INFO hello 
+2017-11-30T00:42:02+05:30 INFO Event sent
+2017-11-30T00:42:12+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=2070848 beat.memstats.memory_total=4182816 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=20 libbeat.pipeline.events.published=3 libbeat.pipeline.events.retry=1 libbeat.pipeline.events.total=3
+2017-11-30T00:42:12+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:42:12+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:42:12+05:30 INFO hello 
+2017-11-30T00:42:12+05:30 INFO Event sent
+2017-11-30T00:42:22+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:42:22+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:42:22+05:30 INFO hello 
+2017-11-30T00:42:22+05:30 INFO Event sent
+2017-11-30T00:42:32+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:42:32+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:42:32+05:30 INFO hello 
+2017-11-30T00:42:32+05:30 INFO Event sent
+2017-11-30T00:42:42+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=2107424 beat.memstats.memory_total=4219392 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=23 libbeat.pipeline.events.published=3 libbeat.pipeline.events.total=3
+2017-11-30T00:42:42+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:42:42+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:42:42+05:30 INFO hello 
+2017-11-30T00:42:42+05:30 INFO Event sent
+2017-11-30T00:42:52+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:42:52+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:42:52+05:30 INFO hello 
+2017-11-30T00:42:52+05:30 INFO Event sent
+2017-11-30T00:42:56+05:30 ERR  Failed to connect: Get http://localhost:9200: dial tcp 127.0.0.1:9200: getsockopt: connection refused
+2017-11-30T00:42:56+05:30 INFO retryer: send unwait-signal to consumer
+2017-11-30T00:42:56+05:30 INFO   done
+2017-11-30T00:42:56+05:30 INFO retryer: send wait signal to consumer
+2017-11-30T00:42:56+05:30 INFO   done
+2017-11-30T00:43:02+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:43:02+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:43:02+05:30 INFO hello 
+2017-11-30T00:43:02+05:30 INFO Event sent
+2017-11-30T00:43:12+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=1982224 beat.memstats.memory_total=4264312 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=26 libbeat.pipeline.events.published=3 libbeat.pipeline.events.retry=1 libbeat.pipeline.events.total=3
+2017-11-30T00:43:12+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:43:12+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:43:12+05:30 INFO hello 
+2017-11-30T00:43:12+05:30 INFO Event sent
+2017-11-30T00:43:22+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:43:22+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:43:22+05:30 INFO hello 
+2017-11-30T00:43:22+05:30 INFO Event sent
+2017-11-30T00:43:32+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:43:32+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:43:32+05:30 INFO hello 
+2017-11-30T00:43:32+05:30 INFO Event sent
+2017-11-30T00:43:42+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=2019760 beat.memstats.memory_total=4301848 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=29 libbeat.pipeline.events.published=3 libbeat.pipeline.events.total=3
+2017-11-30T00:43:42+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:43:42+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:43:42+05:30 INFO hello 
+2017-11-30T00:43:42+05:30 INFO Event sent
+2017-11-30T00:43:52+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:43:52+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:43:52+05:30 INFO hello 
+2017-11-30T00:43:52+05:30 INFO Event sent
+2017-11-30T00:43:56+05:30 ERR  Failed to connect: Get http://localhost:9200: dial tcp 127.0.0.1:9200: getsockopt: connection refused
+2017-11-30T00:43:56+05:30 INFO retryer: send unwait-signal to consumer
+2017-11-30T00:43:56+05:30 INFO   done
+2017-11-30T00:43:56+05:30 INFO retryer: send wait signal to consumer
+2017-11-30T00:43:56+05:30 INFO   done
+2017-11-30T00:44:02+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:44:02+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:44:02+05:30 INFO hello 
+2017-11-30T00:44:02+05:30 INFO Event sent
+2017-11-30T00:44:12+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=2068704 beat.memstats.memory_total=4350792 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=32 libbeat.pipeline.events.published=3 libbeat.pipeline.events.retry=2 libbeat.pipeline.events.total=3
+2017-11-30T00:44:12+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:44:12+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:44:12+05:30 INFO hello 
+2017-11-30T00:44:12+05:30 INFO Event sent
+2017-11-30T00:44:22+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:44:22+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:44:22+05:30 INFO hello 
+2017-11-30T00:44:22+05:30 INFO Event sent
+2017-11-30T00:44:32+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:44:32+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:44:32+05:30 INFO hello 
+2017-11-30T00:44:32+05:30 INFO Event sent
+2017-11-30T00:44:42+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=2101408 beat.memstats.memory_total=4383496 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=35 libbeat.pipeline.events.published=3 libbeat.pipeline.events.total=3
+2017-11-30T00:44:42+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:44:42+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:44:42+05:30 INFO hello 
+2017-11-30T00:44:42+05:30 INFO Event sent
+2017-11-30T00:44:52+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:44:52+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:44:52+05:30 INFO hello 
+2017-11-30T00:44:52+05:30 INFO Event sent
+2017-11-30T00:44:56+05:30 ERR  Failed to connect: Get http://localhost:9200: dial tcp 127.0.0.1:9200: getsockopt: connection refused
+2017-11-30T00:44:56+05:30 INFO retryer: send unwait-signal to consumer
+2017-11-30T00:44:56+05:30 INFO   done
+2017-11-30T00:44:56+05:30 INFO retryer: send wait signal to consumer
+2017-11-30T00:44:56+05:30 INFO   done
+2017-11-30T00:45:02+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:45:02+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:45:02+05:30 INFO hello 
+2017-11-30T00:45:02+05:30 INFO Event sent
+2017-11-30T00:45:12+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=1986720 beat.memstats.memory_total=4429088 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=38 libbeat.pipeline.events.published=3 libbeat.pipeline.events.retry=1 libbeat.pipeline.events.total=3
+2017-11-30T00:45:12+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:45:12+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:45:12+05:30 INFO hello 
+2017-11-30T00:45:12+05:30 INFO Event sent
+2017-11-30T00:45:22+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:45:22+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:45:22+05:30 INFO hello 
+2017-11-30T00:45:22+05:30 INFO Event sent
+2017-11-30T00:45:32+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:45:32+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:45:32+05:30 INFO hello 
+2017-11-30T00:45:32+05:30 INFO Event sent
+2017-11-30T00:45:42+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=2027056 beat.memstats.memory_total=4469424 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=41 libbeat.pipeline.events.published=3 libbeat.pipeline.events.total=3
+2017-11-30T00:45:42+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:45:42+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:45:42+05:30 INFO hello 
+2017-11-30T00:45:42+05:30 INFO Event sent
+2017-11-30T00:45:52+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:45:52+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:45:52+05:30 INFO hello 
+2017-11-30T00:45:52+05:30 INFO Event sent
+2017-11-30T00:45:56+05:30 ERR  Failed to connect: Get http://localhost:9200: dial tcp 127.0.0.1:9200: getsockopt: connection refused
+2017-11-30T00:45:56+05:30 INFO retryer: send unwait-signal to consumer
+2017-11-30T00:45:56+05:30 INFO   done
+2017-11-30T00:45:56+05:30 INFO retryer: send wait signal to consumer
+2017-11-30T00:45:56+05:30 INFO   done
+2017-11-30T00:46:02+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:46:02+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:46:02+05:30 INFO hello 
+2017-11-30T00:46:02+05:30 INFO Event sent
+2017-11-30T00:46:12+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=2071792 beat.memstats.memory_total=4514160 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=44 libbeat.pipeline.events.published=3 libbeat.pipeline.events.retry=1 libbeat.pipeline.events.total=3
+2017-11-30T00:46:12+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:46:12+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:46:12+05:30 INFO hello 
+2017-11-30T00:46:12+05:30 INFO Event sent
+2017-11-30T00:46:22+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:46:22+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:46:22+05:30 INFO hello 
+2017-11-30T00:46:22+05:30 INFO Event sent
+2017-11-30T00:46:32+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:46:32+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:46:32+05:30 INFO hello 
+2017-11-30T00:46:32+05:30 INFO Event sent
+2017-11-30T00:46:42+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=2109312 beat.memstats.memory_total=4551680 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=47 libbeat.pipeline.events.published=3 libbeat.pipeline.events.total=3
+2017-11-30T00:46:42+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:46:42+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:46:42+05:30 INFO hello 
+2017-11-30T00:46:42+05:30 INFO Event sent
+2017-11-30T00:46:52+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:46:52+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:46:52+05:30 INFO hello 
+2017-11-30T00:46:52+05:30 INFO Event sent
+2017-11-30T00:46:56+05:30 ERR  Failed to connect: Get http://localhost:9200: dial tcp 127.0.0.1:9200: getsockopt: connection refused
+2017-11-30T00:46:56+05:30 INFO retryer: send unwait-signal to consumer
+2017-11-30T00:46:56+05:30 INFO   done
+2017-11-30T00:46:56+05:30 INFO retryer: send wait signal to consumer
+2017-11-30T00:46:56+05:30 INFO   done
+2017-11-30T00:47:02+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:47:02+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:47:02+05:30 INFO hello 
+2017-11-30T00:47:02+05:30 INFO Event sent
+2017-11-30T00:47:12+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=1986400 beat.memstats.memory_total=4597624 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=50 libbeat.pipeline.events.published=3 libbeat.pipeline.events.retry=2 libbeat.pipeline.events.total=3
+2017-11-30T00:47:12+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:47:12+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:47:12+05:30 INFO hello 
+2017-11-30T00:47:12+05:30 INFO Event sent
+2017-11-30T00:47:22+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:47:22+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:47:22+05:30 INFO hello 
+2017-11-30T00:47:22+05:30 INFO Event sent
+2017-11-30T00:47:32+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:47:32+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:47:32+05:30 INFO hello 
+2017-11-30T00:47:32+05:30 INFO Event sent
+2017-11-30T00:47:42+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=2023248 beat.memstats.memory_total=4634472 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=53 libbeat.pipeline.events.published=3 libbeat.pipeline.events.total=3
+2017-11-30T00:47:42+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:47:42+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:47:42+05:30 INFO hello 
+2017-11-30T00:47:42+05:30 INFO Event sent
+2017-11-30T00:47:52+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:47:52+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:47:52+05:30 INFO hello 
+2017-11-30T00:47:52+05:30 INFO Event sent
+2017-11-30T00:47:56+05:30 ERR  Failed to connect: Get http://localhost:9200: dial tcp 127.0.0.1:9200: getsockopt: connection refused
+2017-11-30T00:47:56+05:30 INFO retryer: send unwait-signal to consumer
+2017-11-30T00:47:56+05:30 INFO   done
+2017-11-30T00:47:56+05:30 INFO retryer: send wait signal to consumer
+2017-11-30T00:47:56+05:30 INFO   done
+2017-11-30T00:48:02+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:48:02+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:48:02+05:30 INFO hello 
+2017-11-30T00:48:02+05:30 INFO Event sent
+2017-11-30T00:48:12+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=2068512 beat.memstats.memory_total=4679736 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=56 libbeat.pipeline.events.published=3 libbeat.pipeline.events.retry=1 libbeat.pipeline.events.total=3
+2017-11-30T00:48:12+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:48:12+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:48:12+05:30 INFO hello 
+2017-11-30T00:48:12+05:30 INFO Event sent
+2017-11-30T00:48:22+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:48:22+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:48:22+05:30 INFO hello 
+2017-11-30T00:48:22+05:30 INFO Event sent
+2017-11-30T00:48:32+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:48:32+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:48:32+05:30 INFO hello 
+2017-11-30T00:48:32+05:30 INFO Event sent
+2017-11-30T00:48:42+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=2105808 beat.memstats.memory_total=4717032 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=59 libbeat.pipeline.events.published=3 libbeat.pipeline.events.total=3
+2017-11-30T00:48:42+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:48:42+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:48:42+05:30 INFO hello 
+2017-11-30T00:48:42+05:30 INFO Event sent
+2017-11-30T00:48:52+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:48:52+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:48:52+05:30 INFO hello 
+2017-11-30T00:48:52+05:30 INFO Event sent
+2017-11-30T00:48:56+05:30 ERR  Failed to connect: Get http://localhost:9200: dial tcp 127.0.0.1:9200: getsockopt: connection refused
+2017-11-30T00:48:56+05:30 INFO retryer: send unwait-signal to consumer
+2017-11-30T00:48:56+05:30 INFO   done
+2017-11-30T00:48:56+05:30 INFO retryer: send wait signal to consumer
+2017-11-30T00:48:56+05:30 INFO   done
+2017-11-30T00:49:02+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:49:02+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:49:02+05:30 INFO hello 
+2017-11-30T00:49:02+05:30 INFO Event sent
+2017-11-30T00:49:12+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=1991072 beat.memstats.memory_total=4762208 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=62 libbeat.pipeline.events.published=3 libbeat.pipeline.events.retry=1 libbeat.pipeline.events.total=3
+2017-11-30T00:49:12+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:49:12+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:49:12+05:30 INFO hello 
+2017-11-30T00:49:12+05:30 INFO Event sent
+2017-11-30T00:49:22+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:49:22+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:49:22+05:30 INFO hello 
+2017-11-30T00:49:22+05:30 INFO Event sent
+2017-11-30T00:49:32+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:49:32+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:49:32+05:30 INFO hello 
+2017-11-30T00:49:32+05:30 INFO Event sent
+2017-11-30T00:49:42+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=2028608 beat.memstats.memory_total=4799744 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=65 libbeat.pipeline.events.published=3 libbeat.pipeline.events.total=3
+2017-11-30T00:49:42+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:49:42+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:49:42+05:30 INFO hello 
+2017-11-30T00:49:42+05:30 INFO Event sent
+2017-11-30T00:49:52+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:49:52+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:49:52+05:30 INFO hello 
+2017-11-30T00:49:52+05:30 INFO Event sent
+2017-11-30T00:49:56+05:30 ERR  Failed to connect: Get http://localhost:9200: dial tcp 127.0.0.1:9200: getsockopt: connection refused
+2017-11-30T00:49:56+05:30 INFO retryer: send unwait-signal to consumer
+2017-11-30T00:49:56+05:30 INFO   done
+2017-11-30T00:49:56+05:30 INFO retryer: send wait signal to consumer
+2017-11-30T00:49:56+05:30 INFO   done
+2017-11-30T00:50:02+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:50:02+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:50:02+05:30 INFO hello 
+2017-11-30T00:50:02+05:30 INFO Event sent
+2017-11-30T00:50:12+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=2073680 beat.memstats.memory_total=4844816 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=68 libbeat.pipeline.events.published=3 libbeat.pipeline.events.retry=2 libbeat.pipeline.events.total=3
+2017-11-30T00:50:12+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:50:12+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:50:12+05:30 INFO hello 
+2017-11-30T00:50:12+05:30 INFO Event sent
+2017-11-30T00:50:22+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:50:22+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:50:22+05:30 INFO hello 
+2017-11-30T00:50:22+05:30 INFO Event sent
+2017-11-30T00:50:32+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:50:32+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:50:32+05:30 INFO hello 
+2017-11-30T00:50:32+05:30 INFO Event sent
+2017-11-30T00:50:42+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=2109872 beat.memstats.memory_total=4881008 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=71 libbeat.pipeline.events.published=3 libbeat.pipeline.events.total=3
+2017-11-30T00:50:42+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:50:42+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:50:42+05:30 INFO hello 
+2017-11-30T00:50:42+05:30 INFO Event sent
+2017-11-30T00:50:52+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:50:52+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:50:52+05:30 INFO hello 
+2017-11-30T00:50:52+05:30 INFO Event sent
+2017-11-30T00:50:56+05:30 ERR  Failed to connect: Get http://localhost:9200: dial tcp 127.0.0.1:9200: getsockopt: connection refused
+2017-11-30T00:50:56+05:30 INFO retryer: send unwait-signal to consumer
+2017-11-30T00:50:56+05:30 INFO   done
+2017-11-30T00:50:56+05:30 INFO retryer: send wait signal to consumer
+2017-11-30T00:50:56+05:30 INFO   done
+2017-11-30T00:51:02+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:51:02+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:51:02+05:30 INFO hello 
+2017-11-30T00:51:02+05:30 INFO Event sent
+2017-11-30T00:51:12+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=1997136 beat.memstats.memory_total=4927592 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=74 libbeat.pipeline.events.published=3 libbeat.pipeline.events.retry=1 libbeat.pipeline.events.total=3
+2017-11-30T00:51:12+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:51:12+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:51:12+05:30 INFO hello 
+2017-11-30T00:51:12+05:30 INFO Event sent
+2017-11-30T00:51:22+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:51:22+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:51:22+05:30 INFO hello 
+2017-11-30T00:51:22+05:30 INFO Event sent
+2017-11-30T00:51:32+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:51:32+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:51:32+05:30 INFO hello 
+2017-11-30T00:51:32+05:30 INFO Event sent
+2017-11-30T00:51:42+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=2034544 beat.memstats.memory_total=4965000 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=77 libbeat.pipeline.events.published=3 libbeat.pipeline.events.total=3
+2017-11-30T00:51:42+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:51:42+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:51:42+05:30 INFO hello 
+2017-11-30T00:51:42+05:30 INFO Event sent
+2017-11-30T00:51:52+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:51:52+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:51:52+05:30 INFO hello 
+2017-11-30T00:51:52+05:30 INFO Event sent
+2017-11-30T00:51:56+05:30 ERR  Failed to connect: Get http://localhost:9200: dial tcp 127.0.0.1:9200: getsockopt: connection refused
+2017-11-30T00:51:56+05:30 INFO retryer: send unwait-signal to consumer
+2017-11-30T00:51:56+05:30 INFO   done
+2017-11-30T00:51:56+05:30 INFO retryer: send wait signal to consumer
+2017-11-30T00:51:56+05:30 INFO   done
+2017-11-30T00:52:02+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:52:02+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:52:02+05:30 INFO hello 
+2017-11-30T00:52:02+05:30 INFO Event sent
+2017-11-30T00:52:12+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=2078448 beat.memstats.memory_total=5008904 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=80 libbeat.pipeline.events.published=3 libbeat.pipeline.events.retry=1 libbeat.pipeline.events.total=3
+2017-11-30T00:52:12+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:52:12+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:52:12+05:30 INFO hello 
+2017-11-30T00:52:12+05:30 INFO Event sent
+2017-11-30T00:52:22+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:52:22+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:52:22+05:30 INFO hello 
+2017-11-30T00:52:22+05:30 INFO Event sent
+2017-11-30T00:52:32+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:52:32+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:52:32+05:30 INFO hello 
+2017-11-30T00:52:32+05:30 INFO Event sent
+2017-11-30T00:52:42+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=2115024 beat.memstats.memory_total=5045480 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=83 libbeat.pipeline.events.published=3 libbeat.pipeline.events.total=3
+2017-11-30T00:52:42+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:52:42+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:52:42+05:30 INFO hello 
+2017-11-30T00:52:42+05:30 INFO Event sent
+2017-11-30T00:52:52+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:52:52+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:52:52+05:30 INFO hello 
+2017-11-30T00:52:52+05:30 INFO Event sent
+2017-11-30T00:52:56+05:30 ERR  Failed to connect: Get http://localhost:9200: dial tcp 127.0.0.1:9200: getsockopt: connection refused
+2017-11-30T00:52:56+05:30 INFO retryer: send unwait-signal to consumer
+2017-11-30T00:52:56+05:30 INFO   done
+2017-11-30T00:52:56+05:30 INFO retryer: send wait signal to consumer
+2017-11-30T00:52:56+05:30 INFO   done
+2017-11-30T00:53:02+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:53:02+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:53:02+05:30 INFO hello 
+2017-11-30T00:53:02+05:30 INFO Event sent
+2017-11-30T00:53:12+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=2001600 beat.memstats.memory_total=5090896 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=86 libbeat.pipeline.events.published=3 libbeat.pipeline.events.retry=2 libbeat.pipeline.events.total=3
+2017-11-30T00:53:12+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:53:12+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:53:12+05:30 INFO hello 
+2017-11-30T00:53:12+05:30 INFO Event sent
+2017-11-30T00:53:22+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:53:22+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:53:22+05:30 INFO hello 
+2017-11-30T00:53:22+05:30 INFO Event sent
+2017-11-30T00:53:32+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:53:32+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:53:32+05:30 INFO hello 
+2017-11-30T00:53:32+05:30 INFO Event sent
+2017-11-30T00:53:42+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=2038928 beat.memstats.memory_total=5128224 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=89 libbeat.pipeline.events.published=3 libbeat.pipeline.events.total=3
+2017-11-30T00:53:42+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:53:42+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:53:42+05:30 INFO hello 
+2017-11-30T00:53:42+05:30 INFO Event sent
+2017-11-30T00:53:52+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:53:52+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:53:52+05:30 INFO hello 
+2017-11-30T00:53:52+05:30 INFO Event sent
+2017-11-30T00:53:56+05:30 ERR  Failed to connect: Get http://localhost:9200: dial tcp 127.0.0.1:9200: getsockopt: connection refused
+2017-11-30T00:53:56+05:30 INFO retryer: send unwait-signal to consumer
+2017-11-30T00:53:56+05:30 INFO   done
+2017-11-30T00:53:56+05:30 INFO retryer: send wait signal to consumer
+2017-11-30T00:53:56+05:30 INFO   done
+2017-11-30T00:54:02+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:54:02+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:54:02+05:30 INFO hello 
+2017-11-30T00:54:02+05:30 INFO Event sent
+2017-11-30T00:54:12+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=2083680 beat.memstats.memory_total=5172976 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=92 libbeat.pipeline.events.published=3 libbeat.pipeline.events.retry=1 libbeat.pipeline.events.total=3
+2017-11-30T00:54:12+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:54:12+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:54:12+05:30 INFO hello 
+2017-11-30T00:54:12+05:30 INFO Event sent
+2017-11-30T00:54:22+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:54:22+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:54:22+05:30 INFO hello 
+2017-11-30T00:54:22+05:30 INFO Event sent
+2017-11-30T00:54:32+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:54:32+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:54:32+05:30 INFO hello 
+2017-11-30T00:54:32+05:30 INFO Event sent
+2017-11-30T00:54:42+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=2119664 beat.memstats.memory_total=5208960 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=95 libbeat.pipeline.events.published=3 libbeat.pipeline.events.total=3
+2017-11-30T00:54:42+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:54:42+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:54:42+05:30 INFO hello 
+2017-11-30T00:54:42+05:30 INFO Event sent
+2017-11-30T00:54:52+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:54:52+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:54:52+05:30 INFO hello 
+2017-11-30T00:54:52+05:30 INFO Event sent
+2017-11-30T00:54:56+05:30 ERR  Failed to connect: Get http://localhost:9200: dial tcp 127.0.0.1:9200: getsockopt: connection refused
+2017-11-30T00:54:56+05:30 INFO retryer: send unwait-signal to consumer
+2017-11-30T00:54:56+05:30 INFO   done
+2017-11-30T00:54:56+05:30 INFO retryer: send wait signal to consumer
+2017-11-30T00:54:56+05:30 INFO   done
+2017-11-30T00:55:02+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:55:02+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:55:02+05:30 INFO hello 
+2017-11-30T00:55:02+05:30 INFO Event sent
+2017-11-30T00:55:12+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=2006800 beat.memstats.memory_total=5254632 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=98 libbeat.pipeline.events.published=3 libbeat.pipeline.events.retry=1 libbeat.pipeline.events.total=3
+2017-11-30T00:55:12+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:55:12+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:55:12+05:30 INFO hello 
+2017-11-30T00:55:12+05:30 INFO Event sent
+2017-11-30T00:55:22+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:55:22+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:55:22+05:30 INFO hello 
+2017-11-30T00:55:22+05:30 INFO Event sent
+2017-11-30T00:55:32+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:55:32+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:55:32+05:30 INFO hello 
+2017-11-30T00:55:32+05:30 INFO Event sent
+2017-11-30T00:55:42+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=2044048 beat.memstats.memory_total=5291880 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=101 libbeat.pipeline.events.published=3 libbeat.pipeline.events.total=3
+2017-11-30T00:55:42+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:55:42+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:55:42+05:30 INFO hello 
+2017-11-30T00:55:42+05:30 INFO Event sent
+2017-11-30T00:55:52+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:55:52+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:55:52+05:30 INFO hello 
+2017-11-30T00:55:52+05:30 INFO Event sent
+2017-11-30T00:55:56+05:30 ERR  Failed to connect: Get http://localhost:9200: dial tcp 127.0.0.1:9200: getsockopt: connection refused
+2017-11-30T00:55:56+05:30 INFO retryer: send unwait-signal to consumer
+2017-11-30T00:55:56+05:30 INFO   done
+2017-11-30T00:55:56+05:30 INFO retryer: send wait signal to consumer
+2017-11-30T00:55:56+05:30 INFO   done
+2017-11-30T00:56:02+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:56:02+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:56:02+05:30 INFO hello 
+2017-11-30T00:56:02+05:30 INFO Event sent
+2017-11-30T00:56:12+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=2089936 beat.memstats.memory_total=5337768 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=104 libbeat.pipeline.events.published=3 libbeat.pipeline.events.retry=2 libbeat.pipeline.events.total=3
+2017-11-30T00:56:12+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:56:12+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:56:12+05:30 INFO hello 
+2017-11-30T00:56:12+05:30 INFO Event sent
+2017-11-30T00:56:22+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:56:22+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:56:22+05:30 INFO hello 
+2017-11-30T00:56:22+05:30 INFO Event sent
+2017-11-30T00:56:32+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:56:32+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:56:32+05:30 INFO hello 
+2017-11-30T00:56:32+05:30 INFO Event sent
+2017-11-30T00:56:42+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=2127136 beat.memstats.memory_total=5374968 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=107 libbeat.pipeline.events.published=3 libbeat.pipeline.events.total=3
+2017-11-30T00:56:42+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:56:42+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:56:42+05:30 INFO hello 
+2017-11-30T00:56:42+05:30 INFO Event sent
+2017-11-30T00:56:52+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:56:52+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:56:52+05:30 INFO hello 
+2017-11-30T00:56:52+05:30 INFO Event sent
+2017-11-30T00:56:56+05:30 ERR  Failed to connect: Get http://localhost:9200: dial tcp 127.0.0.1:9200: getsockopt: connection refused
+2017-11-30T00:56:56+05:30 INFO retryer: send unwait-signal to consumer
+2017-11-30T00:56:56+05:30 INFO   done
+2017-11-30T00:56:56+05:30 INFO retryer: send wait signal to consumer
+2017-11-30T00:56:56+05:30 INFO   done
+2017-11-30T00:57:02+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:57:02+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:57:02+05:30 INFO hello 
+2017-11-30T00:57:02+05:30 INFO Event sent
+2017-11-30T00:57:12+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=2011936 beat.memstats.memory_total=5420736 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=110 libbeat.pipeline.events.published=3 libbeat.pipeline.events.retry=1 libbeat.pipeline.events.total=3
+2017-11-30T00:57:12+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:57:12+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:57:12+05:30 INFO hello 
+2017-11-30T00:57:12+05:30 INFO Event sent
+2017-11-30T00:57:22+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:57:22+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:57:22+05:30 INFO hello 
+2017-11-30T00:57:22+05:30 INFO Event sent
+2017-11-30T00:57:32+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:57:32+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:57:32+05:30 INFO hello 
+2017-11-30T00:57:32+05:30 INFO Event sent
+2017-11-30T00:57:42+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=2049104 beat.memstats.memory_total=5457904 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=113 libbeat.pipeline.events.published=3 libbeat.pipeline.events.total=3
+2017-11-30T00:57:42+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:57:42+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:57:42+05:30 INFO hello 
+2017-11-30T00:57:42+05:30 INFO Event sent
+2017-11-30T00:57:52+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:57:52+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:57:52+05:30 INFO hello 
+2017-11-30T00:57:52+05:30 INFO Event sent
+2017-11-30T00:57:56+05:30 ERR  Failed to connect: Get http://localhost:9200: dial tcp 127.0.0.1:9200: getsockopt: connection refused
+2017-11-30T00:57:56+05:30 INFO retryer: send unwait-signal to consumer
+2017-11-30T00:57:56+05:30 INFO   done
+2017-11-30T00:57:56+05:30 INFO retryer: send wait signal to consumer
+2017-11-30T00:57:56+05:30 INFO   done
+2017-11-30T00:58:02+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:58:02+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:58:02+05:30 INFO hello 
+2017-11-30T00:58:02+05:30 INFO Event sent
+2017-11-30T00:58:12+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=2094288 beat.memstats.memory_total=5503088 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=116 libbeat.pipeline.events.published=3 libbeat.pipeline.events.retry=1 libbeat.pipeline.events.total=3
+2017-11-30T00:58:12+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:58:12+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:58:12+05:30 INFO hello 
+2017-11-30T00:58:12+05:30 INFO Event sent
+2017-11-30T00:58:22+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:58:22+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:58:22+05:30 INFO hello 
+2017-11-30T00:58:22+05:30 INFO Event sent
+2017-11-30T00:58:32+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:58:32+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:58:32+05:30 INFO hello 
+2017-11-30T00:58:32+05:30 INFO Event sent
+2017-11-30T00:58:42+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=2132400 beat.memstats.memory_total=5541200 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=119 libbeat.pipeline.events.published=3 libbeat.pipeline.events.total=3
+2017-11-30T00:58:42+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:58:42+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:58:42+05:30 INFO hello 
+2017-11-30T00:58:42+05:30 INFO Event sent
+2017-11-30T00:58:52+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:58:52+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:58:52+05:30 INFO hello 
+2017-11-30T00:58:52+05:30 INFO Event sent
+2017-11-30T00:58:56+05:30 ERR  Failed to connect: Get http://localhost:9200: dial tcp 127.0.0.1:9200: getsockopt: connection refused
+2017-11-30T00:58:56+05:30 INFO retryer: send unwait-signal to consumer
+2017-11-30T00:58:56+05:30 INFO   done
+2017-11-30T00:58:56+05:30 INFO retryer: send wait signal to consumer
+2017-11-30T00:58:56+05:30 INFO   done
+2017-11-30T00:59:02+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:59:02+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:59:02+05:30 INFO hello 
+2017-11-30T00:59:02+05:30 INFO Event sent
+2017-11-30T00:59:12+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=2012208 beat.memstats.memory_total=5586760 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=122 libbeat.pipeline.events.published=3 libbeat.pipeline.events.retry=2 libbeat.pipeline.events.total=3
+2017-11-30T00:59:12+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:59:12+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:59:12+05:30 INFO hello 
+2017-11-30T00:59:12+05:30 INFO Event sent
+2017-11-30T00:59:22+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:59:22+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:59:22+05:30 INFO hello 
+2017-11-30T00:59:22+05:30 INFO Event sent
+2017-11-30T00:59:32+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:59:32+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:59:32+05:30 INFO hello 
+2017-11-30T00:59:32+05:30 INFO Event sent
+2017-11-30T00:59:42+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=2050464 beat.memstats.memory_total=5625016 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=125 libbeat.pipeline.events.published=3 libbeat.pipeline.events.total=3
+2017-11-30T00:59:42+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:59:42+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:59:42+05:30 INFO hello 
+2017-11-30T00:59:42+05:30 INFO Event sent
+2017-11-30T00:59:52+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T00:59:52+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T00:59:52+05:30 INFO hello 
+2017-11-30T00:59:52+05:30 INFO Event sent
+2017-11-30T00:59:56+05:30 ERR  Failed to connect: Get http://localhost:9200: dial tcp 127.0.0.1:9200: getsockopt: connection refused
+2017-11-30T00:59:56+05:30 INFO retryer: send unwait-signal to consumer
+2017-11-30T00:59:56+05:30 INFO   done
+2017-11-30T00:59:56+05:30 INFO retryer: send wait signal to consumer
+2017-11-30T00:59:56+05:30 INFO   done
+2017-11-30T01:00:02+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:00:02+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:00:02+05:30 INFO hello 
+2017-11-30T01:00:02+05:30 INFO Event sent
+2017-11-30T01:00:12+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=2091792 beat.memstats.memory_total=5666344 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=128 libbeat.pipeline.events.published=3 libbeat.pipeline.events.retry=1 libbeat.pipeline.events.total=3
+2017-11-30T01:00:12+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:00:12+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:00:12+05:30 INFO hello 
+2017-11-30T01:00:12+05:30 INFO Event sent
+2017-11-30T01:00:22+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:00:22+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:00:22+05:30 INFO hello 
+2017-11-30T01:00:22+05:30 INFO Event sent
+2017-11-30T01:00:32+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:00:32+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:00:32+05:30 INFO hello 
+2017-11-30T01:00:32+05:30 INFO Event sent
+2017-11-30T01:00:42+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=2132656 beat.memstats.memory_total=5707208 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=131 libbeat.pipeline.events.published=3 libbeat.pipeline.events.total=3
+2017-11-30T01:00:42+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:00:42+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:00:42+05:30 INFO hello 
+2017-11-30T01:00:42+05:30 INFO Event sent
+2017-11-30T01:00:52+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:00:52+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:00:52+05:30 INFO hello 
+2017-11-30T01:00:52+05:30 INFO Event sent
+2017-11-30T01:00:56+05:30 ERR  Failed to connect: Get http://localhost:9200: dial tcp 127.0.0.1:9200: getsockopt: connection refused
+2017-11-30T01:00:56+05:30 INFO retryer: send unwait-signal to consumer
+2017-11-30T01:00:56+05:30 INFO   done
+2017-11-30T01:00:56+05:30 INFO retryer: send wait signal to consumer
+2017-11-30T01:00:56+05:30 INFO   done
+2017-11-30T01:01:02+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:01:02+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:01:02+05:30 INFO hello 
+2017-11-30T01:01:02+05:30 INFO Event sent
+2017-11-30T01:01:12+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=2018704 beat.memstats.memory_total=5753216 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=134 libbeat.pipeline.events.published=3 libbeat.pipeline.events.retry=1 libbeat.pipeline.events.total=3
+2017-11-30T01:01:12+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:01:12+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:01:12+05:30 INFO hello 
+2017-11-30T01:01:12+05:30 INFO Event sent
+2017-11-30T01:01:22+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:01:22+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:01:22+05:30 INFO hello 
+2017-11-30T01:01:22+05:30 INFO Event sent
+2017-11-30T01:01:32+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:01:32+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:01:32+05:30 INFO hello 
+2017-11-30T01:01:32+05:30 INFO Event sent
+2017-11-30T01:01:42+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=2056464 beat.memstats.memory_total=5790976 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=137 libbeat.pipeline.events.published=3 libbeat.pipeline.events.total=3
+2017-11-30T01:01:42+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:01:42+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:01:42+05:30 INFO hello 
+2017-11-30T01:01:42+05:30 INFO Event sent
+2017-11-30T01:01:52+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:01:52+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:01:52+05:30 INFO hello 
+2017-11-30T01:01:52+05:30 INFO Event sent
+2017-11-30T01:01:56+05:30 ERR  Failed to connect: Get http://localhost:9200: dial tcp 127.0.0.1:9200: getsockopt: connection refused
+2017-11-30T01:01:56+05:30 INFO retryer: send unwait-signal to consumer
+2017-11-30T01:01:56+05:30 INFO   done
+2017-11-30T01:01:56+05:30 INFO retryer: send wait signal to consumer
+2017-11-30T01:01:56+05:30 INFO   done
+2017-11-30T01:02:02+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:02:02+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:02:02+05:30 INFO hello 
+2017-11-30T01:02:02+05:30 INFO Event sent
+2017-11-30T01:02:12+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=2098160 beat.memstats.memory_total=5832672 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=140 libbeat.pipeline.events.published=3 libbeat.pipeline.events.retry=2 libbeat.pipeline.events.total=3
+2017-11-30T01:02:12+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:02:12+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:02:12+05:30 INFO hello 
+2017-11-30T01:02:12+05:30 INFO Event sent
+2017-11-30T01:02:22+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:02:22+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:02:22+05:30 INFO hello 
+2017-11-30T01:02:22+05:30 INFO Event sent
+2017-11-30T01:02:32+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:02:32+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:02:32+05:30 INFO hello 
+2017-11-30T01:02:32+05:30 INFO Event sent
+2017-11-30T01:02:42+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=2139088 beat.memstats.memory_total=5873600 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=143 libbeat.pipeline.events.published=3 libbeat.pipeline.events.total=3
+2017-11-30T01:02:42+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:02:42+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:02:42+05:30 INFO hello 
+2017-11-30T01:02:42+05:30 INFO Event sent
+2017-11-30T01:02:52+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:02:52+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:02:52+05:30 INFO hello 
+2017-11-30T01:02:52+05:30 INFO Event sent
+2017-11-30T01:02:56+05:30 ERR  Failed to connect: Get http://localhost:9200: dial tcp 127.0.0.1:9200: getsockopt: connection refused
+2017-11-30T01:02:56+05:30 INFO retryer: send unwait-signal to consumer
+2017-11-30T01:02:56+05:30 INFO   done
+2017-11-30T01:02:56+05:30 INFO retryer: send wait signal to consumer
+2017-11-30T01:02:56+05:30 INFO   done
+2017-11-30T01:03:02+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:03:02+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:03:02+05:30 INFO hello 
+2017-11-30T01:03:02+05:30 INFO Event sent
+2017-11-30T01:03:12+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=2025360 beat.memstats.memory_total=5919272 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=146 libbeat.pipeline.events.published=3 libbeat.pipeline.events.retry=1 libbeat.pipeline.events.total=3
+2017-11-30T01:03:12+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:03:12+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:03:12+05:30 INFO hello 
+2017-11-30T01:03:12+05:30 INFO Event sent
+2017-11-30T01:03:22+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:03:22+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:03:22+05:30 INFO hello 
+2017-11-30T01:03:22+05:30 INFO Event sent
+2017-11-30T01:03:32+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:03:32+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:03:32+05:30 INFO hello 
+2017-11-30T01:03:32+05:30 INFO Event sent
+2017-11-30T01:03:42+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=2063024 beat.memstats.memory_total=5956936 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=149 libbeat.pipeline.events.published=3 libbeat.pipeline.events.total=3
+2017-11-30T01:03:42+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:03:42+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:03:42+05:30 INFO hello 
+2017-11-30T01:03:42+05:30 INFO Event sent
+2017-11-30T01:03:52+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:03:52+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:03:52+05:30 INFO hello 
+2017-11-30T01:03:52+05:30 INFO Event sent
+2017-11-30T01:03:56+05:30 ERR  Failed to connect: Get http://localhost:9200: dial tcp 127.0.0.1:9200: getsockopt: connection refused
+2017-11-30T01:03:56+05:30 INFO retryer: send unwait-signal to consumer
+2017-11-30T01:03:56+05:30 INFO   done
+2017-11-30T01:03:56+05:30 INFO retryer: send wait signal to consumer
+2017-11-30T01:03:56+05:30 INFO   done
+2017-11-30T01:04:02+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:04:02+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:04:02+05:30 INFO hello 
+2017-11-30T01:04:02+05:30 INFO Event sent
+2017-11-30T01:04:12+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=2109472 beat.memstats.memory_total=6003384 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=152 libbeat.pipeline.events.published=3 libbeat.pipeline.events.retry=1 libbeat.pipeline.events.total=3
+2017-11-30T01:04:12+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:04:12+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:04:12+05:30 INFO hello 
+2017-11-30T01:04:12+05:30 INFO Event sent
+2017-11-30T01:04:22+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:04:22+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:04:22+05:30 INFO hello 
+2017-11-30T01:04:22+05:30 INFO Event sent
+2017-11-30T01:04:32+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:04:32+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:04:32+05:30 INFO hello 
+2017-11-30T01:04:32+05:30 INFO Event sent
+2017-11-30T01:04:42+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=2146464 beat.memstats.memory_total=6040376 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=155 libbeat.pipeline.events.published=3 libbeat.pipeline.events.total=3
+2017-11-30T01:04:42+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:04:42+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:04:42+05:30 INFO hello 
+2017-11-30T01:04:42+05:30 INFO Event sent
+2017-11-30T01:04:52+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:04:52+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:04:52+05:30 INFO hello 
+2017-11-30T01:04:52+05:30 INFO Event sent
+2017-11-30T01:04:56+05:30 ERR  Failed to connect: Get http://localhost:9200: dial tcp 127.0.0.1:9200: getsockopt: connection refused
+2017-11-30T01:04:56+05:30 INFO retryer: send unwait-signal to consumer
+2017-11-30T01:04:56+05:30 INFO   done
+2017-11-30T01:04:56+05:30 INFO retryer: send wait signal to consumer
+2017-11-30T01:04:56+05:30 INFO   done
+2017-11-30T01:05:02+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:05:02+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:05:02+05:30 INFO hello 
+2017-11-30T01:05:02+05:30 INFO Event sent
+2017-11-30T01:05:12+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=2031232 beat.memstats.memory_total=6086048 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=158 libbeat.pipeline.events.published=3 libbeat.pipeline.events.retry=2 libbeat.pipeline.events.total=3
+2017-11-30T01:05:12+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:05:12+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:05:12+05:30 INFO hello 
+2017-11-30T01:05:12+05:30 INFO Event sent
+2017-11-30T01:05:22+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:05:22+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:05:22+05:30 INFO hello 
+2017-11-30T01:05:22+05:30 INFO Event sent
+2017-11-30T01:05:32+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:05:32+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:05:32+05:30 INFO hello 
+2017-11-30T01:05:32+05:30 INFO Event sent
+2017-11-30T01:05:42+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=2069072 beat.memstats.memory_total=6123888 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=161 libbeat.pipeline.events.published=3 libbeat.pipeline.events.total=3
+2017-11-30T01:05:42+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:05:42+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:05:42+05:30 INFO hello 
+2017-11-30T01:05:42+05:30 INFO Event sent
+2017-11-30T01:05:52+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:05:52+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:05:52+05:30 INFO hello 
+2017-11-30T01:05:52+05:30 INFO Event sent
+2017-11-30T01:05:56+05:30 ERR  Failed to connect: Get http://localhost:9200: dial tcp 127.0.0.1:9200: getsockopt: connection refused
+2017-11-30T01:05:56+05:30 INFO retryer: send unwait-signal to consumer
+2017-11-30T01:05:56+05:30 INFO   done
+2017-11-30T01:05:56+05:30 INFO retryer: send wait signal to consumer
+2017-11-30T01:05:56+05:30 INFO   done
+2017-11-30T01:06:02+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:06:02+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:06:02+05:30 INFO hello 
+2017-11-30T01:06:02+05:30 INFO Event sent
+2017-11-30T01:06:12+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=2114672 beat.memstats.memory_total=6169488 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=164 libbeat.pipeline.events.published=3 libbeat.pipeline.events.retry=1 libbeat.pipeline.events.total=3
+2017-11-30T01:06:12+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:06:12+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:06:12+05:30 INFO hello 
+2017-11-30T01:06:12+05:30 INFO Event sent
+2017-11-30T01:06:22+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:06:22+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:06:22+05:30 INFO hello 
+2017-11-30T01:06:22+05:30 INFO Event sent
+2017-11-30T01:06:32+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:06:32+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:06:32+05:30 INFO hello 
+2017-11-30T01:06:32+05:30 INFO Event sent
+2017-11-30T01:06:42+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=2151968 beat.memstats.memory_total=6206784 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=167 libbeat.pipeline.events.published=3 libbeat.pipeline.events.total=3
+2017-11-30T01:06:42+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:06:42+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:06:42+05:30 INFO hello 
+2017-11-30T01:06:42+05:30 INFO Event sent
+2017-11-30T01:06:52+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:06:52+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:06:52+05:30 INFO hello 
+2017-11-30T01:06:52+05:30 INFO Event sent
+2017-11-30T01:06:56+05:30 ERR  Failed to connect: Get http://localhost:9200: dial tcp 127.0.0.1:9200: getsockopt: connection refused
+2017-11-30T01:06:56+05:30 INFO retryer: send unwait-signal to consumer
+2017-11-30T01:06:56+05:30 INFO   done
+2017-11-30T01:06:56+05:30 INFO retryer: send wait signal to consumer
+2017-11-30T01:06:56+05:30 INFO   done
+2017-11-30T01:07:02+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:07:02+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:07:02+05:30 INFO hello 
+2017-11-30T01:07:02+05:30 INFO Event sent
+2017-11-30T01:07:12+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=2036592 beat.memstats.memory_total=6253544 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=170 libbeat.pipeline.events.published=3 libbeat.pipeline.events.retry=1 libbeat.pipeline.events.total=3
+2017-11-30T01:07:12+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:07:12+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:07:12+05:30 INFO hello 
+2017-11-30T01:07:12+05:30 INFO Event sent
+2017-11-30T01:07:22+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:07:22+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:07:22+05:30 INFO hello 
+2017-11-30T01:07:22+05:30 INFO Event sent
+2017-11-30T01:07:32+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:07:32+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:07:32+05:30 INFO hello 
+2017-11-30T01:07:32+05:30 INFO Event sent
+2017-11-30T01:07:42+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=2074032 beat.memstats.memory_total=6290984 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=173 libbeat.pipeline.events.published=3 libbeat.pipeline.events.total=3
+2017-11-30T01:07:42+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:07:42+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:07:42+05:30 INFO hello 
+2017-11-30T01:07:42+05:30 INFO Event sent
+2017-11-30T01:07:52+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:07:52+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:07:52+05:30 INFO hello 
+2017-11-30T01:07:52+05:30 INFO Event sent
+2017-11-30T01:07:56+05:30 ERR  Failed to connect: Get http://localhost:9200: dial tcp 127.0.0.1:9200: getsockopt: connection refused
+2017-11-30T01:07:56+05:30 INFO retryer: send unwait-signal to consumer
+2017-11-30T01:07:56+05:30 INFO   done
+2017-11-30T01:07:56+05:30 INFO retryer: send wait signal to consumer
+2017-11-30T01:07:56+05:30 INFO   done
+2017-11-30T01:08:02+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:08:02+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:08:02+05:30 INFO hello 
+2017-11-30T01:08:02+05:30 INFO Event sent
+2017-11-30T01:08:12+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=2119488 beat.memstats.memory_total=6336440 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=176 libbeat.pipeline.events.published=3 libbeat.pipeline.events.retry=2 libbeat.pipeline.events.total=3
+2017-11-30T01:08:12+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:08:12+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:08:12+05:30 INFO hello 
+2017-11-30T01:08:12+05:30 INFO Event sent
+2017-11-30T01:08:22+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:08:22+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:08:22+05:30 INFO hello 
+2017-11-30T01:08:22+05:30 INFO Event sent
+2017-11-30T01:08:32+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:08:32+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:08:32+05:30 INFO hello 
+2017-11-30T01:08:32+05:30 INFO Event sent
+2017-11-30T01:08:42+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=2156240 beat.memstats.memory_total=6373192 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=179 libbeat.pipeline.events.published=3 libbeat.pipeline.events.total=3
+2017-11-30T01:08:42+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:08:42+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:08:42+05:30 INFO hello 
+2017-11-30T01:08:42+05:30 INFO Event sent
+2017-11-30T01:08:52+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:08:52+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:08:52+05:30 INFO hello 
+2017-11-30T01:08:52+05:30 INFO Event sent
+2017-11-30T01:08:56+05:30 ERR  Failed to connect: Get http://localhost:9200: dial tcp 127.0.0.1:9200: getsockopt: connection refused
+2017-11-30T01:08:56+05:30 INFO retryer: send unwait-signal to consumer
+2017-11-30T01:08:56+05:30 INFO   done
+2017-11-30T01:08:56+05:30 INFO retryer: send wait signal to consumer
+2017-11-30T01:08:56+05:30 INFO   done
+2017-11-30T01:09:02+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:09:02+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:09:02+05:30 INFO hello 
+2017-11-30T01:09:02+05:30 INFO Event sent
+2017-11-30T01:09:12+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=2037808 beat.memstats.memory_total=6416704 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=182 libbeat.pipeline.events.published=3 libbeat.pipeline.events.retry=1 libbeat.pipeline.events.total=3
+2017-11-30T01:09:12+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:09:12+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:09:12+05:30 INFO hello 
+2017-11-30T01:09:12+05:30 INFO Event sent
+2017-11-30T01:09:22+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:09:22+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:09:22+05:30 INFO hello 
+2017-11-30T01:09:22+05:30 INFO Event sent
+2017-11-30T01:09:32+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:09:32+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:09:32+05:30 INFO hello 
+2017-11-30T01:09:32+05:30 INFO Event sent
+2017-11-30T01:09:42+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=2078992 beat.memstats.memory_total=6457888 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=185 libbeat.pipeline.events.published=3 libbeat.pipeline.events.total=3
+2017-11-30T01:09:42+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:09:42+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:09:42+05:30 INFO hello 
+2017-11-30T01:09:42+05:30 INFO Event sent
+2017-11-30T01:09:52+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:09:52+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:09:52+05:30 INFO hello 
+2017-11-30T01:09:52+05:30 INFO Event sent
+2017-11-30T01:09:56+05:30 ERR  Failed to connect: Get http://localhost:9200: dial tcp 127.0.0.1:9200: getsockopt: connection refused
+2017-11-30T01:09:56+05:30 INFO retryer: send unwait-signal to consumer
+2017-11-30T01:09:56+05:30 INFO   done
+2017-11-30T01:09:56+05:30 INFO retryer: send wait signal to consumer
+2017-11-30T01:09:56+05:30 INFO   done
+2017-11-30T01:10:02+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:10:02+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:10:02+05:30 INFO hello 
+2017-11-30T01:10:02+05:30 INFO Event sent
+2017-11-30T01:10:12+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=2126032 beat.memstats.memory_total=6504928 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=188 libbeat.pipeline.events.published=3 libbeat.pipeline.events.retry=1 libbeat.pipeline.events.total=3
+2017-11-30T01:10:12+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:10:12+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:10:12+05:30 INFO hello 
+2017-11-30T01:10:12+05:30 INFO Event sent
+2017-11-30T01:10:22+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:10:22+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:10:22+05:30 INFO hello 
+2017-11-30T01:10:22+05:30 INFO Event sent
+2017-11-30T01:10:32+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:10:32+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:10:32+05:30 INFO hello 
+2017-11-30T01:10:32+05:30 INFO Event sent
+2017-11-30T01:10:42+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=2163712 beat.memstats.memory_total=6542608 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=191 libbeat.pipeline.events.published=3 libbeat.pipeline.events.total=3
+2017-11-30T01:10:42+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:10:42+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:10:42+05:30 INFO hello 
+2017-11-30T01:10:42+05:30 INFO Event sent
+2017-11-30T01:10:52+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:10:52+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:10:52+05:30 INFO hello 
+2017-11-30T01:10:52+05:30 INFO Event sent
+2017-11-30T01:10:56+05:30 ERR  Failed to connect: Get http://localhost:9200: dial tcp 127.0.0.1:9200: getsockopt: connection refused
+2017-11-30T01:10:56+05:30 INFO retryer: send unwait-signal to consumer
+2017-11-30T01:10:56+05:30 INFO   done
+2017-11-30T01:10:56+05:30 INFO retryer: send wait signal to consumer
+2017-11-30T01:10:56+05:30 INFO   done
+2017-11-30T01:11:02+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:11:02+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:11:02+05:30 INFO hello 
+2017-11-30T01:11:02+05:30 INFO Event sent
+2017-11-30T01:11:12+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=2046640 beat.memstats.memory_total=6589464 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=194 libbeat.pipeline.events.published=3 libbeat.pipeline.events.retry=2 libbeat.pipeline.events.total=3
+2017-11-30T01:11:12+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:11:12+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:11:12+05:30 INFO hello 
+2017-11-30T01:11:12+05:30 INFO Event sent
+2017-11-30T01:11:22+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:11:22+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:11:22+05:30 INFO hello 
+2017-11-30T01:11:22+05:30 INFO Event sent
+2017-11-30T01:11:32+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:11:32+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:11:32+05:30 INFO hello 
+2017-11-30T01:11:32+05:30 INFO Event sent
+2017-11-30T01:11:42+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=2084432 beat.memstats.memory_total=6627256 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=197 libbeat.pipeline.events.published=3 libbeat.pipeline.events.total=3
+2017-11-30T01:11:42+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:11:42+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:11:42+05:30 INFO hello 
+2017-11-30T01:11:42+05:30 INFO Event sent
+2017-11-30T01:11:52+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:11:52+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:11:52+05:30 INFO hello 
+2017-11-30T01:11:52+05:30 INFO Event sent
+2017-11-30T01:11:56+05:30 ERR  Failed to connect: Get http://localhost:9200: dial tcp 127.0.0.1:9200: getsockopt: connection refused
+2017-11-30T01:11:56+05:30 INFO retryer: send unwait-signal to consumer
+2017-11-30T01:11:56+05:30 INFO   done
+2017-11-30T01:11:56+05:30 INFO retryer: send wait signal to consumer
+2017-11-30T01:11:56+05:30 INFO   done
+2017-11-30T01:12:02+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:12:02+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:12:02+05:30 INFO hello 
+2017-11-30T01:12:02+05:30 INFO Event sent
+2017-11-30T01:12:12+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=2130544 beat.memstats.memory_total=6673368 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=200 libbeat.pipeline.events.published=3 libbeat.pipeline.events.retry=1 libbeat.pipeline.events.total=3
+2017-11-30T01:12:12+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:12:12+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:12:12+05:30 INFO hello 
+2017-11-30T01:12:12+05:30 INFO Event sent
+2017-11-30T01:12:22+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:12:22+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:12:22+05:30 INFO hello 
+2017-11-30T01:12:22+05:30 INFO Event sent
+2017-11-30T01:12:32+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:12:32+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:12:32+05:30 INFO hello 
+2017-11-30T01:12:32+05:30 INFO Event sent
+2017-11-30T01:12:42+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=2167952 beat.memstats.memory_total=6710776 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=203 libbeat.pipeline.events.published=3 libbeat.pipeline.events.total=3
+2017-11-30T01:12:42+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:12:42+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:12:42+05:30 INFO hello 
+2017-11-30T01:12:42+05:30 INFO Event sent
+2017-11-30T01:12:52+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:12:52+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:12:52+05:30 INFO hello 
+2017-11-30T01:12:52+05:30 INFO Event sent
+2017-11-30T01:12:56+05:30 ERR  Failed to connect: Get http://localhost:9200: dial tcp 127.0.0.1:9200: getsockopt: connection refused
+2017-11-30T01:12:56+05:30 INFO retryer: send unwait-signal to consumer
+2017-11-30T01:12:56+05:30 INFO   done
+2017-11-30T01:12:56+05:30 INFO retryer: send wait signal to consumer
+2017-11-30T01:12:56+05:30 INFO   done
+2017-11-30T01:13:02+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:13:02+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:13:02+05:30 INFO hello 
+2017-11-30T01:13:02+05:30 INFO Event sent
+2017-11-30T01:13:12+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=2052176 beat.memstats.memory_total=6756176 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=206 libbeat.pipeline.events.published=3 libbeat.pipeline.events.retry=1 libbeat.pipeline.events.total=3
+2017-11-30T01:13:12+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:13:12+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:13:12+05:30 INFO hello 
+2017-11-30T01:13:12+05:30 INFO Event sent
+2017-11-30T01:13:22+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:13:22+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:13:22+05:30 INFO hello 
+2017-11-30T01:13:22+05:30 INFO Event sent
+2017-11-30T01:13:32+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:13:32+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:13:32+05:30 INFO hello 
+2017-11-30T01:13:32+05:30 INFO Event sent
+2017-11-30T01:13:42+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=2089840 beat.memstats.memory_total=6793840 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=209 libbeat.pipeline.events.published=3 libbeat.pipeline.events.total=3
+2017-11-30T01:13:42+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:13:42+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:13:42+05:30 INFO hello 
+2017-11-30T01:13:42+05:30 INFO Event sent
+2017-11-30T01:13:52+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:13:52+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:13:52+05:30 INFO hello 
+2017-11-30T01:13:52+05:30 INFO Event sent
+2017-11-30T01:13:56+05:30 ERR  Failed to connect: Get http://localhost:9200: dial tcp 127.0.0.1:9200: getsockopt: connection refused
+2017-11-30T01:13:56+05:30 INFO retryer: send unwait-signal to consumer
+2017-11-30T01:13:56+05:30 INFO   done
+2017-11-30T01:13:56+05:30 INFO retryer: send wait signal to consumer
+2017-11-30T01:13:56+05:30 INFO   done
+2017-11-30T01:14:02+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:14:02+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:14:02+05:30 INFO hello 
+2017-11-30T01:14:02+05:30 INFO Event sent
+2017-11-30T01:14:12+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=2136560 beat.memstats.memory_total=6840560 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=212 libbeat.pipeline.events.published=3 libbeat.pipeline.events.retry=2 libbeat.pipeline.events.total=3
+2017-11-30T01:14:12+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:14:12+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:14:12+05:30 INFO hello 
+2017-11-30T01:14:12+05:30 INFO Event sent
+2017-11-30T01:14:22+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:14:22+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:14:22+05:30 INFO hello 
+2017-11-30T01:14:22+05:30 INFO Event sent
+2017-11-30T01:14:32+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:14:32+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:14:32+05:30 INFO hello 
+2017-11-30T01:14:32+05:30 INFO Event sent
+2017-11-30T01:14:42+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=2173760 beat.memstats.memory_total=6877760 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=215 libbeat.pipeline.events.published=3 libbeat.pipeline.events.total=3
+2017-11-30T01:14:42+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:14:42+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:14:42+05:30 INFO hello 
+2017-11-30T01:14:42+05:30 INFO Event sent
+2017-11-30T01:14:52+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:14:52+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:14:52+05:30 INFO hello 
+2017-11-30T01:14:52+05:30 INFO Event sent
+2017-11-30T01:14:56+05:30 ERR  Failed to connect: Get http://localhost:9200: dial tcp 127.0.0.1:9200: getsockopt: connection refused
+2017-11-30T01:14:56+05:30 INFO retryer: send unwait-signal to consumer
+2017-11-30T01:14:56+05:30 INFO   done
+2017-11-30T01:14:56+05:30 INFO retryer: send wait signal to consumer
+2017-11-30T01:14:56+05:30 INFO   done
+2017-11-30T01:15:02+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:15:02+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:15:02+05:30 INFO hello 
+2017-11-30T01:15:02+05:30 INFO Event sent
+2017-11-30T01:15:12+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=2058800 beat.memstats.memory_total=6924120 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=218 libbeat.pipeline.events.published=3 libbeat.pipeline.events.retry=1 libbeat.pipeline.events.total=3
+2017-11-30T01:15:12+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:15:12+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:15:12+05:30 INFO hello 
+2017-11-30T01:15:12+05:30 INFO Event sent
+2017-11-30T01:15:22+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:15:22+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:15:22+05:30 INFO hello 
+2017-11-30T01:15:22+05:30 INFO Event sent
+2017-11-30T01:15:32+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:15:32+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:15:32+05:30 INFO hello 
+2017-11-30T01:15:32+05:30 INFO Event sent
+2017-11-30T01:15:42+05:30 INFO Non-zero metrics in the last 30s: beat.info.uptime.ms=30000 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=2096032 beat.memstats.memory_total=6961352 libbeat.config.module.running=0 libbeat.pipeline.clients=1 libbeat.pipeline.events.active=221 libbeat.pipeline.events.published=3 libbeat.pipeline.events.total=3
+2017-11-30T01:15:42+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:15:42+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:15:42+05:30 INFO hello 
+2017-11-30T01:15:42+05:30 INFO Event sent
+2017-11-30T01:15:52+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:15:52+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:15:52+05:30 INFO hello 
+2017-11-30T01:15:52+05:30 INFO Event sent
+2017-11-30T01:15:56+05:30 ERR  Failed to connect: Get http://localhost:9200: dial tcp 127.0.0.1:9200: getsockopt: connection refused
+2017-11-30T01:15:56+05:30 INFO retryer: send unwait-signal to consumer
+2017-11-30T01:15:56+05:30 INFO   done
+2017-11-30T01:15:56+05:30 INFO retryer: send wait signal to consumer
+2017-11-30T01:15:56+05:30 INFO   done
+2017-11-30T01:16:02+05:30 INFO table namenucleus_microscope_stg.daily_report_test
+2017-11-30T01:16:02+05:30 INFO exec: "awkscript.sh": executable file not found in $PATH
+2017-11-30T01:16:02+05:30 INFO hello 
+2017-11-30T01:16:02+05:30 INFO Event sent
+2017-11-30T01:16:07+05:30 INFO Total non-zero values:  beat.info.uptime.ms=2244651 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=2141536 beat.memstats.memory_total=7006856 libbeat.config.module.running=0 libbeat.output.type=elasticsearch libbeat.pipeline.clients=0 libbeat.pipeline.events.active=224 libbeat.pipeline.events.published=224 libbeat.pipeline.events.retry=51 libbeat.pipeline.events.total=224
+2017-11-30T01:16:07+05:30 INFO Uptime: 37m24.651224426s
+2017-11-30T01:16:07+05:30 INFO microscopebeat stopped.

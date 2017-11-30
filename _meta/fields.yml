@@ -7,3 +7,10 @@
       required: true
       description: >
         PLEASE UPDATE DOCUMENTATION
+    - name: table_name
+      type: string
+    - name: write_latency
+      type: float
+    - name: read_latency
+      type: float
+

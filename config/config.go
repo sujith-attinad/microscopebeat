@@ -7,8 +7,10 @@ import "time"
 
 type Config struct {
 	Period time.Duration `config:"period"`
+	Table []string `config:"table"`
 }
 
 var DefaultConfig = Config{
 	Period: 1 * time.Second,
+	Table: []string{"system.local"},
 }
